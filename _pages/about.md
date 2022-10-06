@@ -10,7 +10,7 @@ redirect_from:
 
 # About Hiro
 
-Hiro is a social psychologist and a postdoctoral researcher at <a href = "https://www.kochi-tech.ac.jp/kut/english/">Kochi University of Technology </a> (postdoc supervisor: <a href="https://www.kochi-tech.ac.jp/profile/en/mifune-nobuhiro.html">Prof. Nobuhiro Mifune</a>). He completed my BA at Sophia University in Japan and MSc (by research) and PhD at University of Kent in the UK.
+Hiro is a social psychologist and a postdoctoral researcher at <a href = "https://www.kochi-tech.ac.jp/kut/english/">Kochi University of Technology </a> (postdoc supervisor: <a href="https://www.kochi-tech.ac.jp/profile/en/mifune-nobuhiro.html">Prof. Nobuhiro Mifune</a>). He completed his BA at Sophia University in Japan and MSc (by research) and PhD at University of Kent in the UK.
 
 His academic interests lie in social and evolutionary psychology and he is interested in understanding how reputation shapes human sociality. He has been undertaking a wide range of projects and he investigates themes such as how power shapes cooperation via reputational concern, how indirect reciprocity guides intergroup cooperation, why people gossip and how it facilitates prosociality.
 
