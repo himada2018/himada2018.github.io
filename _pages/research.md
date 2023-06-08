@@ -15,7 +15,7 @@ People are generally more cooperative towards others in their own group (in-grou
 
 ## Intergroup Aggression
 
-![image](/assets/images/imada_web_touka-c-04.png)
+![image](/assets/images/imada_web_touka_c-04-r.png)
 
 Human history is rife with intergroup conflicts and wars. In collaboration with Prof. Nobuhiro Mifune, I examine the minimal condition under which out-group aggression emerges and psychological underpinnings of intergroup aggression and conflicts. 
 
