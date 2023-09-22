@@ -26,3 +26,7 @@ He likes talking and doing nonsense with his friends and he also enjoys playing 
 -   BA in Psychology, Sophia University, 2018
 -   Studying Abroad (2016-2017), College of the Holy Cross
 
+## Teaching at Royal Holloway 2023/2024
+PS5202: Intergroup and Interpersonal Processes
+PS3090: Social Psychology in Real World
++ Y3 project supervision
