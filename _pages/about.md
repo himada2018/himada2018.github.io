@@ -36,9 +36,9 @@ For Japanese early career researchers (ECRs): Hiro is more than willing to help 
 -   Studying Abroad (2016-2017), College of the Holy Cross
 
 ## Teaching at Royal Holloway 2023/2024
-PS5202: Intergroup and Interpersonal Processes
-PS3090: Social Psychology in Real World
-+ Y3 project supervision
+-   PS5202: Intergroup and Interpersonal Processes
+-   PS3090: Social Psychology in Real World
+-   Y3 project supervision
 
 ![image](/assets/images/imada_web_touka_c-01-r.png)
 
