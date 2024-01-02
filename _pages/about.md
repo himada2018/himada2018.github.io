@@ -13,11 +13,20 @@ redirect_from:
 Hiro is a lecturer at Royal Holloway, University of London. 
 He completed his BA at Sophia University in Japan and MSc (by research) and PhD at University of Kent in the UK. After finishing his PhD, he worked at Kochi University of Technology as a postdoctoral fellow. 
 
-His academic interests lie in social and evolutionary psychology and he is interested in understanding how reputation shapes human sociality. He has been undertaking a wide range of projects and he investigates themes such as how power shapes cooperation via reputational concern, how indirect reciprocity guides intergroup cooperation, why people gossip and how it facilitates prosociality.
+His academic interests lie in social and evolutionary psychology and he is interested in understanding how reputation shapes human sociality. He has been undertaking a wide range of projects and he addresses questions such as how indirect reciprocity guides (intergroup) cooperation, why people gossip and how it facilitates prosociality, and how we can promote intergenerational and post-disaster cooperation.
 
-He likes talking and doing nonsense with his friends and he also enjoys playing jazz. When he was younger, he traveled abroad by himself with his trumpet and hit local jam sessions in many countries.
+He likes talking and doing nonsense with his friends and he also enjoys playing jazz. When he was younger, he traveled abroad by himself with his trumpet and hit local jam sessions in many countries. He currently plays for [the Runnymede Jazz Orchestra](https://runnymedejazzorchestra.co.uk/) and a regular participant of [the Woods Shed Jazz Club](https://www.villagecentre.org.uk/group/the-woods-shed-jazz-club/). 
 
 ![image](/assets/images/imada_web_touka_c-01-r.png)
+
+
+# Doing research with Hiro
+
+Hiro is actively seeking undergraduate/postgraduate students to join his team. 
+If you are a current undergraduate/MSc student at Royal Holloway and interested in doing research with him, please contact him via email (Hirotaka.Imada[at]rhul.ac.uk). You can join him as a volunteer research assistant or apply to a research assistant bursary.  
+
+If you are interested in pursuing a PhD with him, please contact him via email to express your interest with your research idea and financial plans. Please visit [this page](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/) to figure out available PhD funding opportunities.
+
 
 ## Education
 
