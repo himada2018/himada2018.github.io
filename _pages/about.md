@@ -20,7 +20,7 @@ He likes talking and doing nonsense with his friends and he also enjoys playing 
 
 # Doing research with Hiro
 
-Hiro is actively seeking undergraduate/postgraduate students to join his lab. 
+Hiro is actively seeking undergraduate/postgraduate students to join his [lab](). 
 If you are a current undergraduate/MSc student at Royal Holloway and interested in doing research with him, please contact him via email (Hirotaka.Imada[at]rhul.ac.uk). You can join him as a volunteer research assistant or apply to a research assistant bursary. He can offer you a range of research experiences (e.g., doing literature review, conducting experiments, designing experiments, writing a paper, etc.) 
 
 If you are interested in pursuing a PhD with him, please contact him via email to express your interest with your research idea and financial plans. Please visit [this page](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/) to figure out available PhD funding opportunities. Usually, deadlines for PhD funding applications are around December-January and if you are interested, you'd like to contact him as soon as possible to discuss your project/grant acquisition. 
