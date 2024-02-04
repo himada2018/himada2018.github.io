@@ -11,7 +11,7 @@ header:
 
 ![image](/assets/images/imada_web_touka_c-02-r.png) 
 
-People are generally more cooperative towards others in their own group (in-group members) compared to those outside of the group (out-group members). This tendency, in-group favoritism, has been observed in various cultures and contexts and I am interested in understanding <em>why</em> people favor in-group members over out-group members, considering factors such as social identification and indirect reciprocity. 
+People are generally more cooperative towards others in their own group (in-group members) compared to those outside of the group (out-group members). This tendency, in-group favoritism, has been observed in various cultures and contexts and I am interested in understanding <em>why</em> people favor in-group members over out-group members, considering factors such as social identification and indirect reciprocity. My interests include intergenerational cooperation, cooperation with others in future generations (i.e., sustainable behavior).
 
 ## Intergroup Aggression
 
