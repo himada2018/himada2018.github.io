@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "CIP Lab"
+layout: archive
+title: "Cooperation and Intergrop Processes Lab"
 permalink: /ciplab/
 author_profile: true
 ---
