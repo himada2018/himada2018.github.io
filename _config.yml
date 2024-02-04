@@ -162,6 +162,10 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  lab:
+    output: true
+    permalink: /:collection/:path/
+    
 
 
 # Defaults
@@ -197,15 +201,6 @@ defaults:
   - scope:
       path: ""
       type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _lab
-  - scope:
-      path: ""
-      type: posts
     values:
       layout: single
       author_profile: true
