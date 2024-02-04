@@ -1,6 +1,6 @@
 ---
-permalink: /CIPLab/
 title: "CIP Lab"
+permalink: /ciplab/
 author_profile: true
 ---
 
