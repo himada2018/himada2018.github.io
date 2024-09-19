@@ -218,11 +218,12 @@ defaults:
   # _lab
   - scope:
       path: ""
-      type: pages
-    values:
+      type: research
+   values:
       layout: single
       author_profile: true
-
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
