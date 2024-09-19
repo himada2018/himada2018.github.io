@@ -31,6 +31,7 @@ For Japanese early career researchers (ECRs): Hiro is more than willing to help 
 
 ## Members
 Hirotaka Imada (PI)
+
 Alice Yamamoto-Wilson (External Research Assistant)
 
 ![image](/assets/images/imada_web_touka_c-01-r.png)
