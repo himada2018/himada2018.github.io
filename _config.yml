@@ -206,15 +206,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _lab
-  - scope:
-      path: ""
-      type: research
-   values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _cv
   - scope:
       path: ""
