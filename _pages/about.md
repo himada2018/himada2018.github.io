@@ -37,8 +37,8 @@ For Japanese early career researchers (ECRs): Hiro is more than willing to help 
 -   BA in Psychology, Sophia University, 2018
 -   Studying Abroad (2016-2017), College of the Holy Cross
 
-## Teaching at Royal Holloway 2023/2024
--   PS5202: Intergroup and Interpersonal Processes
+## Teaching at Royal Holloway 2024/2025
+-   PS2110: How can psychology change the world: Applied and developmental perspectives (module convener)
 -   PS3090: Social Psychology in the Real World
 -   Y3 project supervision
 
