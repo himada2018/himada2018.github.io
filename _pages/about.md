@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## About Hiro
+# About Hiro
 
 Hiro is a lecturer at Royal Holloway, University of London. 
 He completed his BA at Sophia University in Japan and MSc (by research) and PhD at University of Kent in the UK. After finishing his PhD, he worked at Kochi University of Technology as a postdoctoral fellow. 
@@ -18,11 +18,7 @@ His academic interests lie in social and evolutionary psychology and he is inter
 He likes talking and doing nonsense with his friends and he also enjoys playing jazz. When he was younger, he traveled abroad by himself with his trumpet and hit local jam sessions in many countries. He currently plays for [the Runnymede Jazz Orchestra](https://runnymedejazzorchestra.co.uk/) and a regular participant of [the Woods Shed Jazz Club](https://www.villagecentre.org.uk/group/the-woods-shed-jazz-club/). 
 
 
-## Cooperation and Intergroup Processes Lab (CIP Lab)
-Current members:
-Hirotaka Imada (PI)
-Alice Yamamoto-Wilson (External Research Assitant)
-
+# Cooperation and Intergroup Processes Lab (CIP Lab)
 
 Hiro is actively seeking undergraduate/postgraduate students to join his CIP lab. 
 If you are a current undergraduate/MSc student at Royal Holloway and interested in doing research with him, please contact him via email (Hirotaka.Imada[at]rhul.ac.uk). You can join him as a volunteer research assistant or apply to a research assistant bursary. He can offer you a range of research experiences (e.g., doing literature review, conducting experiments, designing experiments, writing a paper, etc.) 
@@ -33,6 +29,9 @@ Hiro is particularly motivated to supervise student-led PhD projects on the foll
 
 For Japanese early career researchers (ECRs): Hiro is more than willing to help Japanese ECRs to come do a PhD/build their career in the UK (regardless of whether they do so with him at Royal Holloway). If you have any questions about PhD/career opportunities in the UK, feel free to contact him. He also offers free English-related consultations for Japanese ECRs (see [this tweet](https://twitter.com/Hiro_IMADA/status/1707291163659502064)). 
 
+## Members
+Hirotaka Imada (PI)
+Alice Yamamoto-Wilson (External Research Assistant)
 
 ![image](/assets/images/imada_web_touka_c-01-r.png)
 
