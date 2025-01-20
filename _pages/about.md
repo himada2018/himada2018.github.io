@@ -10,13 +10,18 @@ redirect_from:
 
 # About Hiro
 
-Hiro is a lecturer at Royal Holloway, University of London. 
+Hiro is a lecturer at Royal Holloway, University of London, and a visiting associate professor at the Research Institute for Future Design at the Kochi University of Technology. 
 He completed his BA at Sophia University in Japan and MSc (by research) and PhD at University of Kent in the UK. After finishing his PhD, he worked at Kochi University of Technology as a postdoctoral fellow. 
 
-His academic interests lie in social and evolutionary psychology and he is interested in understanding how reputation shapes human sociality. He has been undertaking a wide range of projects and he addresses questions such as how indirect reciprocity guides (intergroup) cooperation, why people gossip and how it facilitates prosociality, and how we can promote intergenerational and post-disaster cooperation.
+His academic interests lie in social and evolutionary psychology and he is interested in understanding cooperation especially in intergroup contexts. He has been undertaking a wide range of projects and he addresses questions such as how indirect reciprocity guides (intergroup) cooperation, why people gossip and how it facilitates prosociality within/across group boundaries, and how we can promote intergenerational and post-disaster cooperation.
 
 He likes talking and doing nonsense with his friends and he also enjoys playing jazz. When he was younger, he traveled abroad by himself with his trumpet and hit local jam sessions in many countries. He currently plays for [the Runnymede Jazz Orchestra](https://runnymedejazzorchestra.co.uk/) and a regular participant of [the Woods Shed Jazz Club](https://www.villagecentre.org.uk/group/the-woods-shed-jazz-club/). 
 
+# What's on (Spring 2024/2025)
+
+March 21: Friday Jazz @ the Packhorse
+
+April 29: Runnymede Jazz Orchestra @ the Hampton Hub 
 
 # Cooperation and Intergroup Processes Lab (CIP Lab)
 
@@ -25,7 +30,7 @@ If you are a current undergraduate/MSc student at Royal Holloway and interested 
 
 If you are interested in pursuing a PhD with him, please contact him via email to express your interest with your research idea and financial plans. Please visit [this page](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/) to figure out available PhD funding opportunities. Usually, deadlines for PhD funding applications are around December-January and if you are interested, you'd like to contact him as soon as possible to discuss your project/grant acquisition. 
 
-Hiro is particularly motivated to supervise student-led PhD projects on the following topics: [the psychological foundation of intergroup relations](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/research-degree-potential-projects/) and [intergroup intergenerational cooperation](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/sedarc/) (i.e., sustainable behaviour).
+Hiro is particularly motivated to supervise student-led PhD projects on the following topics: [the psychological foundation of intergroup relations](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/research-degree-potential-projects/) and [intergroup/intergenerational cooperation](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/sedarc/) (i.e., sustainable behaviour).
 
 For Japanese early career researchers (ECRs): Hiro is more than willing to help Japanese ECRs to come do a PhD/build their career in the UK (regardless of whether they do so with him at Royal Holloway). If you have any questions about PhD/career opportunities in the UK, feel free to contact him. He also offers free English-related consultations for Japanese ECRs (see [this tweet](https://twitter.com/Hiro_IMADA/status/1707291163659502064)). 
 
@@ -33,6 +38,10 @@ For Japanese early career researchers (ECRs): Hiro is more than willing to help 
 Hirotaka Imada (PI)
 
 Alice Yamamoto-Wilson (External Research Assistant)
+
+Rui San (external research assitant)
+
+Kotomi Ideishi (external research assistant)
 
 ![image](/assets/images/imada_web_touka_c-01-r.png)
 
