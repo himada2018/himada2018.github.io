@@ -25,7 +25,7 @@ Human history is rife with intergroup conflicts and wars. While it is tempting t
 
 ![image](/assets/images/imada_web_touka_c-05-r.png)
 
-Power asymmetries and hierarchies are ubiquitous in our society. I examine how power shapes human social behaviors, especially cooperation. I address several questions related to the functions and influences of power; How do people cooperate with in-group members and out-group members when their group involves a power hierarchy? How does having vs. lacking power influence cooperation?
+Power asymmetries and hierarchies are ubiquitous in our society. I examine how power shapes human social behaviors, especially cooperation. I address several questions related to the functions and influences of power; How do people cooperate with in-group members and out-group members when their group involves a power hierarchy? How does having vs. lacking power influence cooperation? Relevant papers include [Imada et al. (2023)](https://spb.psychopen.eu/index.php/spb/article/view/7779) and [Kusano and Imada under review](https://osf.io/er2f6/?view_only=72f34e66a7894de8a898b21d25cd85a3).
 
 ## Gossip
 
