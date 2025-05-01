@@ -11,7 +11,7 @@ redirect_from:
 # About Hiro
 
 Hiro is a lecturer at Royal Holloway, University of London, and a visiting associate professor at the Research Institute for Future Design at the Kochi University of Technology. 
-He completed his BA at Sophia University in Japan and MSc (by research) and PhD at University of Kent in the UK. After finishing his PhD, he worked at Kochi University of Technology as a postdoctoral fellow. 
+ 
 
 His academic interests lie in social and evolutionary psychology and he is interested in understanding cooperation especially in intergroup contexts. He has been undertaking a wide range of projects and he addresses questions such as how indirect reciprocity guides (intergroup) cooperation, why people gossip and how it facilitates prosociality within/across group boundaries, and how we can promote intergenerational and post-disaster cooperation.
 
@@ -22,7 +22,7 @@ He likes talking and doing nonsense with his friends and he also enjoys playing 
 
 March 21: Friday Jazz @ the Packhorse
 
-April 29: Runnymede Jazz Orchestra @ the Hampton Hub 
+April 27: Runnymede Jazz Orchestra @ the Hampton Hub 
 
 
 # Cooperation and Intergroup Processes Lab (CIP Lab)
