@@ -39,7 +39,9 @@ For Japanese early career researchers (ECRs): Hiro is more than willing to help 
 ## Members
 Hiro Imada (PI)
 
-Alice Yamamoto-Wilson (External research assistant)
+Katie Webb (PhD student)
+
+Alice Yamamoto-Wilson (external research assistant)
 
 Rui Sun (external research assistant)
 
