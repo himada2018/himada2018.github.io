@@ -20,9 +20,7 @@ He likes talking and doing nonsense with his friends and he also enjoys playing 
 
 # What's on (Spring 2024/2025)
 
-March 21: Friday Jazz @ the Packhorse
-
-April 27: Runnymede Jazz Orchestra @ the Hampton Hub 
+[June 24 (Tue): Runnymede Jazz Orchestra, Big Band Favourites @ St. John's Church Egham](https://www.ticketsource.co.uk/runnymede-jazz-orchestra/jazz-for-a-summer-evening/e-lkqojq) 
 
 
 # Cooperation and Intergroup Processes Lab (CIP Lab)
@@ -50,6 +48,8 @@ Kotomi Ideishi (external research assistant)
 Jack McCart (Y2 undergraduate research assistant)
 
 Damita Saboor (Y3 undergraduate research assistant)
+
+Kseniya Guedroitz (Y2 undergraduate research assistant)
 
 
 ![image](/assets/images/imada_web_touka_c-01-r.png)
