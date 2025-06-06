@@ -51,6 +51,8 @@ Damita Saboor (Y3 undergraduate research assistant)
 
 Kseniya Guedroitz (Y2 undergraduate research assistant)
 
+Cecilia Gregorio (Y2 undergraduate research assistant)
+
 
 ![image](/assets/images/imada_web_touka_c-01-r.png)
 
