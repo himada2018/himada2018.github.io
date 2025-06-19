@@ -10,7 +10,7 @@ redirect_from:
 
 # About Hiro
 
-Hiro is a lecturer at Royal Holloway, University of London, and a visiting associate professor at the Research Institute for Future Design at the Kochi University of Technology. 
+Hiro is a lecturer at Royal Holloway, University of London, and a visiting associate professor at the Research Institute for Future Design at the Kochi University of Technology. He earned a PhD from the University of Kent in 2022 (PhD supervisors: Prof. Tim Hopthrow, Prof. Dominic Abrams, and Dr. Jim Everett). 
  
 
 His academic interests lie in social and evolutionary psychology and he is interested in understanding cooperation especially in intergroup contexts. He has been undertaking a wide range of projects and he addresses questions such as how indirect reciprocity guides (intergroup) cooperation, why people gossip and how it facilitates prosociality within/across group boundaries, and how we can promote intergenerational and post-disaster cooperation.
