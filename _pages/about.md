@@ -18,10 +18,13 @@ His academic interests lie in social and evolutionary psychology and he is inter
 He likes talking and doing nonsense with his friends and he also enjoys playing jazz. When he was younger, he traveled abroad by himself with his trumpet and hit local jam sessions in many countries. He currently plays for [the Runnymede Jazz Orchestra](https://runnymedejazzorchestra.co.uk/) and a regular participant of [the Woods Shed Jazz Club](https://www.villagecentre.org.uk/group/the-woods-shed-jazz-club/). 
 
 
-# What's on (Spring 2024/2025)
+# What's on (Autumn 2025/2026)
 
-[June 24 (Tue): Runnymede Jazz Orchestra, Big Band Favourites @ St. John's Church Egham](https://www.ticketsource.co.uk/runnymede-jazz-orchestra/jazz-for-a-summer-evening/e-lkqojq) 
+[September 21 (Sun): RH Jazz Collective @ The Packhorse](https://www.su.rhul.ac.uk/thepackhorse/events/) 
 
+[October 31 (Fri): Friday Jazz @ The Packhorse Packhorse](https://www.su.rhul.ac.uk/thepackhorse/events/) 
+
+[December 9 (Tue): Jazz by Candlelight, Runnymede Jazz Orchestra @ St. John's Church Egham ](https://runnymedejazzorchestra.co.uk/) 
 
 # Cooperation and Intergroup Processes Lab (CIP Lab)
 
@@ -39,19 +42,20 @@ Hiro Imada (PI)
 
 Katie Webb (PhD student)
 
-Alice Yamamoto-Wilson (external research assistant)
+Jack McCart (Y3 undergraduate research assistant)
 
-Rui Sun (external research assistant)
 
-Kotomi Ideishi (external research assistant)
+Kseniya Guedroitz (Y3 undergraduate research assistant)
 
-Jack McCart (Y2 undergraduate research assistant)
+Cecilia Gregorio (Y3 undergraduate research assistant)
 
-Damita Saboor (Y3 undergraduate research assistant)
 
-Kseniya Guedroitz (Y2 undergraduate research assistant)
+Lab alumni:
+Damita Saboor
+Alice Yamamoto-Wilson
+[Kotomi Ideishi](https://www.linkedin.com/in/kotomiideishi/?originalSubdomain=nl) 
+[Rui Sun](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8)
 
-Cecilia Gregorio (Y2 undergraduate research assistant)
 
 
 ![image](/assets/images/imada_web_touka_c-01-r.png)
