@@ -22,7 +22,7 @@ He likes talking and doing nonsense with his friends and he also enjoys playing 
 
 [September 21 (Sun): RH Jazz Collective @ The Packhorse](https://www.su.rhul.ac.uk/thepackhorse/events/) 
 
-[October 31 (Fri): Friday Jazz @ The Packhorse Packhorse](https://www.su.rhul.ac.uk/thepackhorse/events/) 
+[October 31 (Fri): Friday Jazz @ The Packhorse](https://www.su.rhul.ac.uk/thepackhorse/events/) 
 
 [December 9 (Tue): Jazz by Candlelight, Runnymede Jazz Orchestra @ St. John's Church Egham ](https://runnymedejazzorchestra.co.uk/) 
 
