@@ -49,17 +49,9 @@ Kseniya Guedroitz (Y3 undergraduate research assistant)
 Cecilia Gregorio (Y3 undergraduate research assistant)
 
 
+### Lab alumni
 
-Lab alumni:
-Damita Saboor
-
-Alice Yamamoto-Wilson
-
-[Kotomi Ideishi](https://www.linkedin.com/in/kotomiideishi/?originalSubdomain=nl)
-
-[Rui Sun](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8)
-
-Amy Marshall
+Damita Saboor, Alice Yamamoto-Wilson, [Kotomi Ideishi](https://www.linkedin.com/in/kotomiideishi/?originalSubdomain=nl), [Rui Sun](https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8), Amy Marshall
 
 
 
