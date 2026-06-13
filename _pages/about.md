@@ -17,10 +17,9 @@ His academic interests lie in social and evolutionary psychology and he is inter
 He likes talking and doing nonsense with his friends and he also enjoys playing jazz. When he was younger, he traveled abroad by himself with his trumpet and hit local jam sessions in many countries. He currently plays for [the Runnymede Jazz Orchestra](https://runnymedejazzorchestra.co.uk/) and a regular participant of [the Woods Shed Jazz Club](https://www.villagecentre.org.uk/group/the-woods-shed-jazz-club/). 
 
 
-# What's on (Spring 2025/2026)
+# What's on (Autumn 2026/2027)
 
-[April 26 (Sun): Runnymede Jazz Orchestra Live at the Hub](https://runnymedejazzorchestra.co.uk/) 
-
+TBA
 
 # Cooperation and Intergroup Processes Lab (CIP Lab)
 
