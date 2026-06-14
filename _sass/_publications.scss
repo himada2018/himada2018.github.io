@@ -1,0 +1,65 @@
+/* ---------------------------------------------------------------------------
+   Publications page — cards, year headings, PDF/DOI buttons
+   Import once:  @import "publications";
+   --------------------------------------------------------------------------- */
+.pub-legend { font-size:0.85em; color:#8a8d90; margin:0 0 0.3em; }
+.pub-legend__star { color:#185FA5; font-weight:700; }
+.pub-scholar { font-size:0.85em; color:#6b6e72; margin:0 0 1.5em; }
+
+.pub-year {
+  font-size:1.3em; font-weight:700; color:#45494d;
+  border-bottom:2px solid #eceae3; padding-bottom:0.2em; margin:1.6em 0 0.9em;
+}
+.pub-year:first-of-type { margin-top:0.5em; }
+.pub-year--press { color:#185FA5; border-bottom-color:#cdddef; }
+.pub-year-group { display:flex; flex-direction:column; gap:12px; }
+
+.pub-card {
+  display:flex; gap:16px; align-items:flex-start;
+  border:1px solid #eceae3; border-radius:12px; background:#fcfbf9;
+  padding:15px 17px; transition:box-shadow .15s, border-color .15s;
+}
+.pub-card:hover { border-color:#d8d6cf; box-shadow:0 1px 6px rgba(0,0,0,0.06); }
+.pub-card__cover { flex:0 0 56px; }
+.pub-card__cover img { width:56px; height:auto; border-radius:5px; display:block; }
+.pub-card__body { flex:1; min-width:0; }
+.pub-card__title { font-size:1em; font-weight:600; color:#3a3f43; line-height:1.35; margin-bottom:0.4em; }
+.pub-card__cite { font-size:0.82em; color:#6b6e72; line-height:1.55; margin-bottom:0.7em; }
+.pub-card__abstract { font-size:0.82em; margin-bottom:0.6em; }
+.pub-card__abstract summary { cursor:pointer; color:#185FA5; font-weight:500; }
+.pub-card__abstract p { margin:0.5em 0 0; color:#6b6e72; padding-left:0.8em; border-left:2px solid #eceae3; }
+
+.pub-card__links { display:flex; gap:8px; flex-wrap:wrap; }
+.pub-btn {
+  display:inline-block; font-size:0.78em; font-weight:500; padding:4px 13px;
+  border-radius:6px; text-decoration:none; border:1px solid #d8d6cf;
+  color:#45494d; background:#fff; transition:border-color .15s, background .15s;
+}
+.pub-btn:hover { border-color:#185FA5; color:#185FA5; }
+.pub-btn--solid { background:#185FA5; border-color:#185FA5; color:#fff; }
+.pub-btn--solid:hover { background:#134c84; border-color:#134c84; color:#fff; }
+
+@media (max-width:600px) {
+  .pub-card { gap:12px; padding:13px 14px; }
+  .pub-card__cover { flex-basis:44px; }
+  .pub-card__cover img { width:44px; }
+}
+
+/* ===== Research page section cards ===== */
+.research-card {
+  background:#fcfbf9; border:1px solid #eceae3; border-radius:14px;
+  padding:20px 24px; margin-bottom:1.5em;
+}
+.research-card > :first-child { margin-top:0; }
+.research-card > :last-child  { margin-bottom:0; }
+.research-card img { max-width:100%; height:auto; border-radius:8px; margin:0.5em 0 1em; display:block; }
+.research-card h2 { margin-top:0; }
+
+/* ===== About Hiro framed card (homepage) ===== */
+.about-card {
+  background:#fcfbf9; border:1px solid #eceae3; border-radius:14px;
+  padding:20px 24px; margin-bottom:1.5em;
+}
+.about-card > :first-child { margin-top:0; }
+.about-card > :last-child  { margin-bottom:0; }
+.about-card h1 { font-size:1.6em; margin-bottom:0.5em; }

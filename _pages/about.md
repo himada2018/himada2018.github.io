@@ -9,6 +9,8 @@ redirect_from:
   - /about.html
 ---
 
+<div class="about-card" markdown="1">
+
 # About Hiro
 
 Hiro is an associate professor at Royal Holloway, University of London, and a visiting associate professor at the Research Institute for Future Design at the Kochi University of Technology. He earned a PhD from the University of Kent in 2022 (PhD supervisors: Prof. Tim Hopthrow, Prof. Dominic Abrams, and Dr. Jim Everett).
@@ -17,17 +19,15 @@ His academic interests lie in social and evolutionary psychology and he is inter
 
 He likes talking and doing nonsense with his friends and he also enjoys playing jazz. When he was younger, he traveled abroad by himself with his trumpet and hit local jam sessions in many countries. He currently plays for [the Runnymede Jazz Orchestra](https://runnymedejazzorchestra.co.uk/) and a regular participant of [the Woods Shed Jazz Club](https://www.villagecentre.org.uk/group/the-woods-shed-jazz-club/).
 
-![image](/assets/images/imada_web_touka_c-01-r.png)
+</div>
 
 # What's on
 
 {% include gigs.html %}
 
-
 # Recent papers
 
 {% include recent-papers.html count=6 %}
-
 
 # Cooperation and Intergroup Processes Lab (CIP Lab)
 
@@ -39,4 +39,4 @@ Hiro leads the **Cooperation and Intergroup Processes Lab (CIP Lab)** and is rec
 
 </div>
 
-
+![image](/assets/images/imada_web_touka_c-01-r.png)
