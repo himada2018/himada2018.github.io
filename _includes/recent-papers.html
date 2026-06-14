@@ -1,0 +1,39 @@
+{% comment %}
+  Recent papers grid for the lab page.
+  Pulls the most recent publications (by filename order — highest filenames are
+  newest) and renders them as cover+citation cards in a 2-column grid.
+
+  Journal covers: if a publication file has a `journal:` slug in its front
+  matter AND an image exists at /images/journals/<slug>.jpg, that cover shows.
+  Otherwise the card falls back to citation-only. One image per journal,
+  shared across all papers in that journal.
+
+  How many to show: set `count` below (default 6).
+{% endcomment %}
+
+{% assign count = include.count | default: 6 %}
+
+{% comment %} sort by filename descending so newest (highest number) come first {% endcomment %}
+{% assign recent = site.publications | sort: 'slug' | reverse %}
+
+<div class="papers-grid">
+  {% for pub in recent limit: count %}
+    {% assign cover_path = "" %}
+    {% if pub.cover %}
+      {% assign cover_path = pub.cover %}
+    {% elsif pub.journal %}
+      {% assign cover_path = "/images/journals/" | append: pub.journal | append: ".jpg" %}
+    {% endif %}
+    <div class="paper-card">
+      {% if cover_path != "" %}
+        <div class="paper-card__cover">
+          <img src="{{ cover_path | relative_url }}" alt="journal cover" loading="lazy" />
+        </div>
+      {% endif %}
+      <div class="paper-card__body">
+        {{ pub.citation }}
+        {% if pub.link %}<a class="paper-card__link" href="{{ pub.link }}">View &rarr;</a>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

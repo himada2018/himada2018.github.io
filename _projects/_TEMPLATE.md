@@ -19,9 +19,10 @@ collaborators:
 papers:
   - citation: "Author, A., & Author, B. (2025). Paper title here. *Journal Name*, 12(3)."
     url: "https://doi.org/..."                # optional
-    cover: "/images/projects/cover-1.jpg"     # optional; delete line if no cover
+    cover: "/images/journals/xxx.jpg"     # optional; delete line if no cover
   - citation: "Author, C. (2024). Another paper. *Another Journal*."
     url: "https://doi.org/..."
+    cover: "/images/journals/xxx.jpg"     # optional; delete line if no cover
 ---
 
 Write the project description here as normal Markdown. This is free-form, so
