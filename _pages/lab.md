@@ -18,15 +18,15 @@ Eliza Vettou (PhD student)
 
 ## Projects
 ### Research Projects
-[Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change]()(January 2026-December 2030)
+[Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change]() (January 2026-December 2030)
 
-[Advancing Theoretical Understanding and Methodological Capacity in Psychology Through Social Simulation]()(March 2026-February 2027)
+[Advancing Theoretical Understanding and Methodological Capacity in Psychology Through Social Simulation]() (March 2026-February 2027)
 
 
 ### Impact Activities
-[Echoes of Care]()(with Richmond Arts Service, January 2026-June 2026)
+[Echoes of Care]() (with Richmond Arts Service, January 2026-June 2026)
 
-[Building Intergenerational Cooperation for Renewable Energy Development]()(with Landsvirkjun, January 2026-June 2026)
+[Building Intergenerational Cooperation for Renewable Energy Development]() (with Landsvirkjun, January 2026-June 2026)
 
 
 ## Current & past undergraduate members (graduation year)

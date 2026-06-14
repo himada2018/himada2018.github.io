@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Publication .md generator</title>
+<style>
+  :root {
+    --bg: #faf9f6;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --muted: #6b6a66;
+    --border: #e2e0d8;
+    --accent: #4a4ab7;
+    --accent-soft: #eeedfe;
+    --code-bg: #2c2c2a;
+    --code-ink: #f1efe8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    margin: 0;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+  h1 { font-size: 24px; font-weight: 600; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin-bottom: 20px;
+  }
+  label { display: block; font-size: 13px; font-weight: 600; margin: 14px 0 5px; }
+  label:first-child { margin-top: 0; }
+  .hint { font-weight: 400; color: var(--muted); font-size: 12px; }
+  input[type=text], input[type=url], textarea, select {
+    width: 100%;
+    padding: 9px 11px;
+    font-size: 14px;
+    font-family: inherit;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: #fff;
+    color: var(--ink);
+  }
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  textarea { resize: vertical; min-height: 70px; line-height: 1.5; }
+  .row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .row > div { flex: 1; min-width: 160px; }
+  .file-drop {
+    border: 1.5px dashed var(--border);
+    border-radius: 9px;
+    padding: 18px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+    cursor: pointer;
+    transition: .15s;
+  }
+  .file-drop:hover, .file-drop.over { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+  .file-drop strong { color: var(--ink); }
+  button {
+    font-family: inherit; font-size: 14px; font-weight: 600;
+    padding: 10px 18px; border-radius: 8px; cursor: pointer; border: 1px solid transparent;
+  }
+  .primary { background: var(--accent); color: #fff; }
+  .primary:hover { background: #3c3489; }
+  .ghost { background: #fff; border-color: var(--border); color: var(--ink); }
+  .ghost:hover { border-color: var(--accent); color: var(--accent); }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 4px 0 18px; }
+  pre {
+    background: var(--code-bg); color: var(--code-ink);
+    padding: 18px; border-radius: 10px; overflow-x: auto;
+    font-size: 12.5px; line-height: 1.55; white-space: pre-wrap; word-break: break-word;
+    font-family: "SF Mono", Menlo, Consolas, monospace; margin: 0;
+  }
+  .authors-list { display: flex; flex-direction: column; gap: 8px; }
+  .author-row { display: flex; gap: 8px; align-items: center; }
+  .author-row input { flex: 1; }
+  .author-row .chk { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .author-row button { padding: 6px 10px; font-size: 12px; }
+  .mini { background: #fff; border: 1px solid var(--border); color: var(--muted); }
+  .mini:hover { border-color: #c9594a; color: #c9594a; }
+  .filename { font-family: "SF Mono", Menlo, monospace; font-size: 13px; color: var(--accent); background: var(--accent-soft); padding: 3px 8px; border-radius: 5px; display: inline-block; }
+  .sec-title { font-size: 15px; font-weight: 600; margin: 0 0 14px; }
+  .note { font-size: 12px; color: var(--muted); margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Publication entry generator</h1>
+  <p class="sub">Fill this in, drop your PDF, and download the ready-to-commit <code>.md</code> file.</p>
+
+  <div class="card">
+    <p class="sec-title">Paper details</p>
+
+    <label>Title</label>
+    <textarea id="title" placeholder="Does learning more about others impact liking them?: ..."></textarea>
+
+    <div class="row">
+      <div>
+        <label>Journal / venue <span class="hint">italicised in citation</span></label>
+        <input type="text" id="journal" placeholder="Cognition and Emotion" />
+      </div>
+      <div>
+        <label>Year</label>
+        <input type="text" id="year" placeholder="2025" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label>DOI URL <span class="hint">full https link</span></label>
+        <input type="url" id="doi" placeholder="https://doi.org/10.1080/..." />
+      </div>
+    </div>
+
+    <label>Volume / issue / pages <span class="hint">optional, e.g. 39(2), 145–162</span></label>
+    <input type="text" id="vip" placeholder="" />
+  </div>
+
+  <div class="card">
+    <p class="sec-title">Authors <span class="hint">in order — tick the box for yourself to underline</span></p>
+    <div class="authors-list" id="authors"></div>
+    <div class="actions" style="margin-top:12px;">
+      <button class="ghost" id="addAuthor">+ Add author</button>
+    </div>
+    <p class="note">Format each as <code>Lastname, F. M.</code> (how it should appear). <b>me</b> underlines your name · <b>*</b> = corresponding author · <b>†</b> = joint first author. If any <code>†</code> is used, <code>[† joint first authorship]</code> is appended to the citation automatically.</p>
+  </div>
+
+  <div class="card">
+    <p class="sec-title">PDF & paths</p>
+    <div class="file-drop" id="drop">
+      <strong>Drop your PDF here</strong> or click to choose<br>
+      <span id="fileName">no file selected</span>
+    </div>
+    <input type="file" id="fileInput" accept="application/pdf" hidden />
+
+    <div class="row" style="margin-top:14px;">
+      <div>
+        <label>PDF filename <span class="hint">goes in /files/</span></label>
+        <input type="text" id="pdfName" placeholder="Fan et al. (2025) CE.pdf" />
+      </div>
+      <div>
+        <label>Permalink slug <span class="hint">/publication/SLUG</span></label>
+        <input type="text" id="slug" placeholder="Fan_CE" />
+      </div>
+    </div>
+    <label>Collection</label>
+    <input type="text" id="collection" value="publications" />
+    <label>Output .md filename <span class="hint">e.g. 2025-18.md (year-counter)</span></label>
+    <input type="text" id="mdName" placeholder="2025-18.md" />
+  </div>
+
+  <div class="actions">
+    <button class="primary" id="gen">Generate</button>
+    <button class="ghost" id="copy">Copy to clipboard</button>
+    <button class="ghost" id="dlMd">Download .md</button>
+    <button class="ghost" id="dlPdf">Download renamed PDF</button>
+  </div>
+
+  <div class="card">
+    <p class="sec-title">Preview</p>
+    <pre id="out">(fill in the form and hit Generate)</pre>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+let pdfFile = null;
+
+// ---------- authors ----------
+const authorsBox = $("authors");
+function authorRow(value = "", isMe = false, isCorr = false, isShared = false) {
+  const row = document.createElement("div");
+  row.className = "author-row";
+  row.innerHTML = `
+    <input type="text" placeholder="Lastname, F. M." value="${value.replace(/"/g,'&quot;')}" />
+    <label class="chk"><input type="checkbox" class="me" ${isMe?'checked':''} /> me</label>
+    <label class="chk"><input type="checkbox" class="corr" ${isCorr?'checked':''} /> *</label>
+    <label class="chk"><input type="checkbox" class="shared" ${isShared?'checked':''} /> †</label>
+    <button class="mini">✕</button>`;
+  row.querySelector(".mini").onclick = () => row.remove();
+  authorsBox.appendChild(row);
+}
+$("addAuthor").onclick = () => authorRow();
+// seed a few rows
+authorRow("Lalot, F.", false, true, true);
+authorRow("Imada, H.", true, false, true);
+authorRow("Hopthrow, T.");
+authorRow("Abrams, D. A");
+
+// ---------- file handling ----------
+const drop = $("drop"), fileInput = $("fileInput");
+drop.onclick = () => fileInput.click();
+fileInput.onchange = e => setFile(e.target.files[0]);
+["dragover","dragenter"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add("over"); }));
+["dragleave","drop"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove("over"); }));
+drop.addEventListener("drop", e => { if (e.dataTransfer.files[0]) setFile(e.dataTransfer.files[0]); });
+function setFile(f) {
+  if (!f) return;
+  pdfFile = f;
+  $("fileName").textContent = f.name;
+  if (!$("pdfName").value) $("pdfName").value = f.name;
+}
+
+// ---------- citation builder ----------
+function buildCitation() {
+  const rows = [...authorsBox.querySelectorAll(".author-row")];
+  let anyShared = false;
+  const names = rows.map(r => {
+    let n = r.querySelector("input[type=text]").value.trim();
+    if (!n) return null;
+    const isMe = r.querySelector(".me").checked;
+    const corr = r.querySelector(".corr").checked;
+    const shared = r.querySelector(".shared").checked;
+    if (shared) anyShared = true;
+    if (isMe) n = `<u>${n}</u>`;
+    let prefix = (corr ? "*" : "") + (shared ? "†" : "");
+    return prefix + n;
+  }).filter(Boolean);
+
+  let authorStr;
+  if (names.length <= 1) authorStr = names[0] || "";
+  else if (names.length === 2) authorStr = names[0] + ", & " + names[1];
+  else authorStr = names.slice(0,-1).join(", ") + ", & " + names[names.length-1];
+
+  const year = $("year").value.trim();
+  const title = $("title").value.trim().replace(/\s+/g," ");
+  const journal = $("journal").value.trim();
+  const vip = $("vip").value.trim();
+  const doi = $("doi").value.trim();
+
+  let c = `${authorStr} (${year}). ${title}. <em>${journal}</em>`;
+  if (vip) c += `, ${vip}`;
+  c += ".";
+  if (doi) c += ` ${doi}`;
+  if (anyShared) c += " [† joint first authorship]";
+  return c;
+}
+
+function yamlEscape(s){ return s.replace(/"/g,'\\"'); }
+
+function generate() {
+  const title = $("title").value.trim().replace(/\s+/g," ");
+  const slug = $("slug").value.trim();
+  const pdfName = $("pdfName").value.trim();
+  const doi = $("doi").value.trim();
+  const collection = $("collection").value.trim() || "publications";
+  const citation = buildCitation();
+
+  const md =
+`---
+title: "${yamlEscape(title)}"
+collection: ${collection}
+permalink: /publication/${slug}.pdf
+paperurl: '/files/${pdfName}'
+link: '${doi}'
+citation: '${citation.replace(/'/g,"''")}'
+---
+
+`;
+  $("out").textContent = md;
+  return md;
+}
+
+$("gen").onclick = generate;
+
+$("copy").onclick = async () => {
+  const md = generate();
+  await navigator.clipboard.writeText(md);
+  $("copy").textContent = "Copied ✓";
+  setTimeout(()=>$("copy").textContent="Copy to clipboard",1500);
+};
+
+$("dlMd").onclick = () => {
+  const md = generate();
+  const name = $("mdName").value.trim() || (($("year").value.trim()||"paper")+".md");
+  const blob = new Blob([md], {type:"text/markdown"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = name; a.click();
+};
+
+$("dlPdf").onclick = () => {
+  if (!pdfFile) { alert("No PDF uploaded yet."); return; }
+  const name = $("pdfName").value.trim() || pdfFile.name;
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(pdfFile); a.download = name; a.click();
+};
+</script>
+</body>
+</html>
