@@ -1,8 +1,14 @@
 /* ---------------------------------------------------------------------------
    News sidebar (right-hand column)
-   Import this once from assets/css/main.scss:   @import "news-sidebar";
-   The news column width tracks the theme's author sidebar at every breakpoint.
+   Import once from assets/css/main.scss:   @import "news-sidebar";
+
+   Layout goal: three balanced columns -> profile | content | news, where the
+   news column is as wide as the profile column and the middle text wraps to
+   make room. We force the theme's .page width so the middle actually shrinks.
    --------------------------------------------------------------------------- */
+
+/* width shared by the news column (matches the author/profile sidebar) */
+$news-col-width: 200px !default;
 
 .page-with-news {
   display: flex;
@@ -10,87 +16,112 @@
   gap: 2.5em;
   align-items: flex-start;
 
+  /* Force the middle content to flex instead of using the theme's fixed
+     ~75% width. !important is needed to beat the theme's .page width rule. */
   .page {
-    flex: 1 1 0;
-    min-width: 0;          /* stops long words widening the column */
-    float: none;           /* override the theme float so flex controls layout */
-    width: auto;
+    flex: 1 1 0 !important;
+    width: auto !important;
+    min-width: 0;          /* lets long words wrap instead of widening column */
+    float: none !important;
     padding-right: 0;
+    margin-right: 0;
   }
 }
 
-/* When author_profile is false, the theme leaves a reserved left margin on
-   the content for the (now absent) profile sidebar. Reclaim it so the main
-   content uses the full freed width. */
+/* When author_profile is false, reclaim the reserved left space too */
 .page-with-news--no-profile .page {
   @include breakpoint($large) {
-    padding-left: 0;
-    margin-left: 0;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
   }
 }
 
+/* ---- the news column ---- */
 .news-sidebar {
-  flex: 0 0 $right-sidebar-width-narrow;
-  max-width: $right-sidebar-width-narrow;
-  font-size: 0.85em;
+  flex: 0 0 $news-col-width;
+  max-width: $news-col-width;
+  min-width: $news-col-width;
+  font-size: 0.8em;
   line-height: 1.5;
 
-  @include breakpoint($large) {
-    flex-basis: $right-sidebar-width;
-    max-width: $right-sidebar-width;
-  }
-
-  @include breakpoint($x-large) {
-    flex-basis: $right-sidebar-width-wide;
-    max-width: $right-sidebar-width-wide;
-  }
-
   &__title {
-    margin: 0 0 0.6em;
-    padding-bottom: 0.3em;
+    margin: 0 0 0.7em;
+    padding-bottom: 0.35em;
     border-bottom: 2px solid #efefef;
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    font-weight: 700;
   }
 
+  /* Show ~5 items, then scroll for older news.
+     The max-height is sized so the 6th item is partly cut off, which signals
+     "scroll for more". Adjust the px value to taste. */
   &__list {
     list-style: none;
     margin: 0;
     padding: 0;
+    max-height: 460px;
+    overflow-y: auto;
+    /* subtle fade + thin scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: #d8d6cf transparent;
+    padding-right: 4px;
   }
+  &__list::-webkit-scrollbar { width: 6px; }
+  &__list::-webkit-scrollbar-thumb {
+    background: #d8d6cf;
+    border-radius: 3px;
+  }
+  &__list::-webkit-scrollbar-track { background: transparent; }
 
+  /* each news item is a framed card */
   &__item {
-    margin: 0 0 1.1em;
-    padding: 0;
+    margin: 0 0 0.7em;
+    padding: 0.7em 0.8em;
+    background: #fcfbf9;
+    border: 1px solid #eceae3;
+    border-radius: 8px;
+    transition: box-shadow .15s, border-color .15s;
   }
+  &__item:hover {
+    border-color: #d8d6cf;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  &__item:last-child { margin-bottom: 0.2em; }
 
   &__date {
     display: block;
     font-weight: 700;
-    color: #898c8f;
-    font-size: 0.82em;
+    color: #8a8d90;
+    font-size: 0.8em;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    margin-bottom: 0.15em;
+    margin-bottom: 0.25em;
   }
 
   &__text {
     display: block;
-    color: #494e52;
+    color: #45494d;
   }
+  &__text a { word-break: break-word; }
 }
 
-/* Stack the news under the content on narrow screens */
+/* ---- responsive: stack news under content on narrow screens ---- */
 @media (max-width: 64em) {
   .page-with-news {
     display: block;
   }
   .news-sidebar {
     flex: none;
+    min-width: 0;
     max-width: none;
     margin-top: 2.5em;
     padding-top: 1.5em;
     border-top: 1px solid #efefef;
+  }
+  .news-sidebar__list {
+    max-height: none;   /* no inner scroll on mobile; let the page scroll */
+    overflow: visible;
   }
 }
