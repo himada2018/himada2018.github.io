@@ -2,7 +2,7 @@
 layout: project
 title: "Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change"
 permalink: /projects/intergroup-pluralistic-ignorance/
-funder: "Leverhulme Trust"
+funder: "The Leverhulme Trust"
 length: "January 2026 - December 2030"
 status: "Active"
 

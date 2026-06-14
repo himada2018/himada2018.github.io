@@ -116,6 +116,5 @@ If you are interested in pursuing a PhD with him, please contact him via email t
 
 Hiro is particularly motivated to supervise student-led PhD projects on the following topics: [the psychological foundation of intergroup relations](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/research-degree-potential-projects/) and intergenerational cooperation (i.e., sustainable behaviour).
 
-For Japanese early career researchers (ECRs): Hiro is more than willing to help Japanese ECRs to come do a PhD/build their career in the UK (regardless of whether they do so with him at Royal Holloway). If you have any questions about PhD/career opportunities in the UK, feel free to contact him. He also offers free English-related consultations for Japanese ECRs (see [this tweet](https://twitter.com/Hiro_IMADA/status/1707291163659502064)).
 
 </div>
