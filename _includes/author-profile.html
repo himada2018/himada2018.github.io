@@ -1,24 +1,5 @@
 {% include base_path %}
 
-{% comment %} Load current Font Awesome brands so the X and Bluesky glyphs render
-   even though the theme bundles an older Font Awesome. Scoped to brand icons. {% endcomment %}
-<style>
-@font-face {
-  font-family: "FA Brands New";
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.woff2") format("woff2");
-}
-.social-icons .fa-x-twitter,
-.social-icons .fa-bluesky {
-  font-family: "FA Brands New" !important;
-  font-weight: 400;
-}
-.social-icons .fa-x-twitter:before { content: "\e61b"; }
-.social-icons .fa-bluesky:before  { content: "\e671"; }
-</style>
-
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
