@@ -112,19 +112,19 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 We are actively seeking undergraduate, postgraduate, and postdoctoral researchers to join his lab.
 
-#### Undergraduate and MSc students
+*Undergraduate and MSc students*
 
 If you are a current undergraduate or MSc student at Royal Holloway and are interested in conducting research with Hiro, please get in touch via email. You may join the lab as a volunteer research assistant or apply for a research assistant bursary.
 
 Students in the lab have opportunities to gain a wide range of research experiences, including conducting literature reviews, designing and running experiments, analysing data, and contributing to academic publications.
 
-#### Prospective PhD students
+*Prospective PhD students*
 
 If you are interested in pursuing a PhD in the CIP Lab, please contact Hiro via email with a brief description of your research interests, ideas, and potential funding plans. Information on available PhD funding opportunities can be found [here](https://www.royalholloway.ac.uk/research-and-education/departments-and-schools/psychology/studying-here/research-degrees/). As many funding schemes have deadlines around December–January, prospective applicants are encouraged to get in touch as early as possible to discuss project ideas and funding applications.
 
 Hiro is particularly enthusiastic about supporting student-led PhD projects that align with his research programme, especially those focusing on the psychological foundations of intergroup relations, intergenerational cooperation, and sustainable behaviour.
 
-#### Postdoctoral researchers
+*Postdoctoral researchers*
 
 Hiro also welcomes inquiries from prospective postdoctoral researchers interested in developing fellowship applications. He is keen to support competitive applications for schemes such as [the British Academy Postdoctoral Fellowship](https://www.thebritishacademy.ac.uk/funding/schemes/postdoctoral-fellowships/), [the British Academy International Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/international-fellowships/), [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships), and other relevant national and international funding opportunities.
 
