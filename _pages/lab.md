@@ -18,7 +18,7 @@ Eliza Vettou (PhD student)
 
 ## Projects
 ### Research Projects
-[Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change](https://himada2018.github.io/ciplab/projects/intergroup-pluralistic-ignorance/) (January 2026-December 2030)
+[Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change](/projects/intergroup-pluralistic-ignorance/) (January 2026-December 2030)
 
 [Advancing Theoretical Understanding and Methodological Capacity in Psychology Through Social Simulation]() (March 2026-February 2027)
 
