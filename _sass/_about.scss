@@ -1,0 +1,89 @@
+/* ---------------------------------------------------------------------------
+   About page extras: gig cards ("What's on") + CIP Lab teaser
+   Import once from assets/css/main.scss:   @import "about";
+   (Reuses the same warm card tone as the lab page.)
+   --------------------------------------------------------------------------- */
+
+/* ===== gig cards ===== */
+.gig-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 0.5em 0 1.5em;
+}
+.gig-card {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  border: 1px solid #eceae3;
+  border-radius: 10px;
+  background: #fcfbf9;
+  padding: 10px 14px;
+  transition: box-shadow .15s, border-color .15s;
+}
+.gig-card:hover {
+  border-color: #d8d6cf;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.06);
+}
+.gig-card__date {
+  flex: 0 0 58px;
+  text-align: center;
+  line-height: 1.2;
+}
+.gig-card__day {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #45494d;
+  text-transform: uppercase;
+}
+.gig-card__year {
+  display: block;
+  font-size: 11px;
+  color: #8a8d90;
+}
+.gig-card__body {
+  flex: 1;
+  min-width: 0;
+}
+.gig-card__title {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #45494d;
+  text-decoration: none;
+}
+a.gig-card__title { color: #185FA5; }
+.gig-card__venue {
+  display: block;
+  font-size: 11.5px;
+  color: #8a8d90;
+  margin-top: 2px;
+}
+.gig-empty {
+  color: #8a8d90;
+  font-style: italic;
+  margin: 0.5em 0 1.5em;
+}
+
+/* ===== CIP Lab teaser box ===== */
+.lab-teaser {
+  background: #fcfbf9;
+  border: 1px solid #eceae3;
+  border-left: 3px solid #185FA5;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 0.5em 0 1.5em;
+}
+.lab-teaser p { margin: 0 0 12px; }
+.lab-teaser__btn {
+  display: inline-block;
+  background: #185FA5;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.lab-teaser__btn:hover { background: #134c84; }

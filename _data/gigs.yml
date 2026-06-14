@@ -1,0 +1,19 @@
+# ---------------------------------------------------------------------------
+# GIGS / "What's on"  (jazz performances shown on the homepage)
+#
+# Add a block per gig, soonest first. Past gigs can be deleted whenever.
+#   date    : free text shown in the date badge, e.g. "Sep 22" (top) 
+#   year    : shown under the date, e.g. "2026"
+#   title   : the gig name / theme
+#   venue   : venue name (+ time/place detail if you like)
+#   link    : OPTIONAL — event/venue page. Delete the line if none.
+#
+# If this file has NO gigs (all deleted), the homepage shows a friendly
+# "no dates scheduled" line automatically.
+# ---------------------------------------------------------------------------
+
+- date: "Sep 22"
+  year: "2026"
+  title: "Stevie Wonder Night"
+  venue: "Hersham Music Club · 21:30"
+  link: "https://www.hershamsportsandsocialclub.co.uk/tuesday-live-music-nights.html"

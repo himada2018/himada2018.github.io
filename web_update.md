@@ -5,6 +5,21 @@
 ================================================================================
 
 --------------------------------------------------------------------------------
+  GIGS  ("What's on")
+--------------------------------------------------------------------------------
+WHERE: _data/gigs.yml
+HOW:   add a block per gig, soonest first; delete past ones anytime.
+
+    - date: "Sep 22"          # badge top line
+      year: "2026"            # badge bottom line
+      title: "Stevie Wonder Night"
+      venue: "Hersham Music Club · 21:30"
+      link: "https://..."     # optional; delete the line if none
+
+If you delete ALL gigs, the page automatically shows
+"No gigs scheduled at the moment — check back soon." — so it's never blank/TBA.
+
+--------------------------------------------------------------------------------
   NEWS FEED  (the right-hand column)
 --------------------------------------------------------------------------------
 WHERE: _data/lab_news.yml  (lab page)   and/or   _data/news.yml  (homepage)

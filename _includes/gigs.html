@@ -1,0 +1,28 @@
+{% comment %}
+  "What's on" gig list for the homepage. Renders gigs from _data/gigs.yml as
+  date-badge cards. If there are no gigs, shows a friendly empty state.
+  Do not edit to add a gig — edit _data/gigs.yml instead.
+{% endcomment %}
+
+{% if site.data.gigs and site.data.gigs.size > 0 %}
+<div class="gig-list">
+  {% for gig in site.data.gigs %}
+    <div class="gig-card">
+      <div class="gig-card__date">
+        <span class="gig-card__day">{{ gig.date }}</span>
+        <span class="gig-card__year">{{ gig.year }}</span>
+      </div>
+      <div class="gig-card__body">
+        {% if gig.link %}
+          <a class="gig-card__title" href="{{ gig.link }}">{{ gig.title }}</a>
+        {% else %}
+          <span class="gig-card__title">{{ gig.title }}</span>
+        {% endif %}
+        {% if gig.venue %}<span class="gig-card__venue">{{ gig.venue }}</span>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% else %}
+<p class="gig-empty">No gigs scheduled at the moment — check back soon.</p>
+{% endif %}
