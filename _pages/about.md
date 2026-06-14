@@ -1,4 +1,5 @@
 ---
+layout: single-news
 permalink: /
 title: ""
 excerpt: "About me"

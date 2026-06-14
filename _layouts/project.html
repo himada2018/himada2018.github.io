@@ -1,0 +1,94 @@
+---
+# Layout: project
+# A full-width page for a single research project. No author profile column,
+# no news column. Renders structured fields (funder, length, members,
+# collaborators, papers) around a free-form Markdown description.
+#
+# Front matter fields it understands (all optional except title):
+#   title         : project title
+#   funder        : grant body / funder name
+#   length        : e.g. "Jan 2026 – Dec 2030"
+#   status        : e.g. "Active" or "Completed" (shown as a pill; omit to hide)
+#   members       : list of { name, url }   (url optional)
+#   collaborators : list of { name, url }   (url optional)
+#   papers        : list of { citation, url, cover }  (url & cover optional)
+#   back_url      : link the "Back" button points to (default /ciplab/)
+#   back_label    : text of the back button (default "Back to CIP Lab")
+#
+# The Markdown body of the file becomes the description (write prose, embed
+# images, etc.).
+layout: default
+---
+
+<div id="main" role="main" class="project-page">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+
+      <p class="project-back">
+        <a href="{{ page.back_url | default: '/ciplab/' | relative_url }}">&larr; {{ page.back_label | default: "Back to CIP Lab" }}</a>
+      </p>
+
+      <header>
+        {% if page.title %}<h1 class="page__title project-title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+      </header>
+
+      {% if page.funder or page.length or page.status %}
+      <div class="project-meta">
+        {% if page.funder %}<span class="project-meta__item"><span class="project-meta__label">Funded by</span> {{ page.funder }}</span>{% endif %}
+        {% if page.funder and page.length %}<span class="project-meta__sep">|</span>{% endif %}
+        {% if page.length %}<span class="project-meta__item"><span class="project-meta__label">Length</span> {{ page.length }}</span>{% endif %}
+        {% if page.status %}<span class="project-meta__sep">|</span><span class="project-status">{{ page.status }}</span>{% endif %}
+      </div>
+      {% endif %}
+
+      <section class="page__content project-description" itemprop="text">
+        {{ content }}
+      </section>
+
+      {% if page.members or page.collaborators %}
+      <div class="project-people">
+        {% if page.members %}
+        <div class="project-people__col">
+          <div class="project-people__label">Members</div>
+          <div class="project-people__list">
+            {% for p in page.members %}
+              {% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}<span>{{ p.name }}</span>{% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+        {% if page.collaborators %}
+        <div class="project-people__col">
+          <div class="project-people__label">Collaborators</div>
+          <div class="project-people__list">
+            {% for p in page.collaborators %}
+              {% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}<span>{{ p.name }}</span>{% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      {% if page.papers %}
+      <div class="project-papers">
+        <div class="project-papers__label">Relevant papers</div>
+        {% for paper in page.papers %}
+          <div class="project-paper{% unless paper.cover %} project-paper--nocover{% endunless %}">
+            {% if paper.cover %}
+              <div class="project-paper__cover">
+                <img src="{{ paper.cover | relative_url }}" alt="Journal cover" loading="lazy" />
+              </div>
+            {% endif %}
+            <div class="project-paper__body">
+              <span class="project-paper__cite">{{ paper.citation | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+              {% if paper.url %}<a class="project-paper__link" href="{{ paper.url }}">View paper &rarr;</a>{% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </div>
+  </article>
+</div>

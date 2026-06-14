@@ -1,0 +1,174 @@
+/* ---------------------------------------------------------------------------
+   Project pages
+   Full-width single-project layout: title, meta band, description (free-form
+   Markdown with embeddable images), members/collaborators, paper cards.
+   Import once from assets/css/main.scss:   @import "project";
+   --------------------------------------------------------------------------- */
+
+.project-page {
+  .page {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .page__inner-wrap {
+    max-width: 50em;     /* comfortable reading width; remove for true full-bleed */
+    margin: 0 auto;
+  }
+}
+
+.project-back {
+  font-size: 0.85em;
+  margin: 0 0 0.75em;
+}
+
+.project-title {
+  line-height: 1.25;
+  margin-bottom: 0.5em;
+}
+
+/* --- meta band (funder | length | status) --- */
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6em 1.1em;
+  font-size: 0.85em;
+  color: #555;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1.5em;
+
+  &__label {
+    color: #999;
+    margin-right: 0.3em;
+  }
+  &__sep {
+    color: #ddd;
+  }
+}
+
+.project-status {
+  background: #eef4ec;
+  color: #3b6d11;
+  padding: 0.2em 0.8em;
+  border-radius: 20px;
+  font-size: 0.82em;
+}
+
+/* --- description: images embedded in the Markdown body --- */
+.project-description {
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 1.5em auto;
+  }
+  /* an italic line immediately after an image renders as a caption */
+  img + em,
+  p > img + em {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    color: #888;
+    margin-top: -0.8em;
+    margin-bottom: 1.5em;
+  }
+}
+
+/* optional: two images side by side. Wrap them in
+   <div class="project-images-row"> ... </div> in your Markdown. */
+.project-images-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 1.5em 0;
+  img {
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 0;
+  }
+}
+
+/* --- people: members | collaborators --- */
+.project-people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.8em;
+  margin: 1.8em 0;
+
+  &__col {
+    flex: 1;
+    min-width: 180px;
+  }
+  &__label {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #999;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  &__list {
+    font-size: 0.9em;
+    line-height: 1.9;
+    a, span { display: block; }
+  }
+}
+
+/* --- relevant papers as cards --- */
+.project-papers {
+  margin-top: 2em;
+
+  &__label {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #999;
+    font-weight: 700;
+    margin-bottom: 0.8em;
+  }
+}
+
+.project-paper {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  border: 0.5px solid #e4e2da;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 12px;
+
+  &__cover {
+    flex: 0 0 60px;
+    img {
+      width: 60px;
+      height: auto;
+      border-radius: 4px;
+      display: block;
+    }
+  }
+  &__body {
+    flex: 1;
+    font-size: 0.82em;
+    line-height: 1.5;
+  }
+  &__cite {
+    display: block;
+  }
+  &__link {
+    display: inline-block;
+    margin-top: 0.4em;
+    font-size: 0.95em;
+  }
+}
+.project-paper--nocover {
+  /* no thumbnail: citation simply fills the width */
+}
+
+/* --- responsive --- */
+@media (max-width: 37.5em) {
+  .project-people { flex-direction: column; gap: 1.2em; }
+}

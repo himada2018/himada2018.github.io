@@ -1,9 +1,8 @@
 ---
 layout: single-news
-layout: archive
-title: "Cooperation and Intergrop Processes Lab"
+title: "Cooperation and Intergroup Processes Lab"
 permalink: /ciplab/
-author_profile: true
+author_profile: false
 ---
 
 Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Imada and based in the Department of Psychology, Royal Holloway, University of London.
@@ -19,7 +18,7 @@ Eliza Vettou (PhD student)
 
 ## Projects
 ### Research Projects
-[Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change]() (January 2026-December 2030)
+[Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change](/projects/intergroup-pluralistic-ignorance/) (January 2026-December 2030)
 
 [Advancing Theoretical Understanding and Methodological Capacity in Psychology Through Social Simulation]() (March 2026-February 2027)
 
