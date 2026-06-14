@@ -77,7 +77,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 {% include recent-papers.html count=6 %}
 
-<p class="lab-section-title">Undergraduate members</p>
+<p class="lab-section-title">Research Assistants</p>
 
 <div class="lab-table-wrap">
 <table class="lab-table">
@@ -111,7 +111,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 ### Join the lab!
 
-We are actively seeking undergraduate, postgraduate, and postdoctoral researchers to join his lab.
+We are actively seeking undergraduate, postgraduate, and postdoctoral researchers to join our lab.
 
 *Undergraduate and MSc students*
 
@@ -127,6 +127,6 @@ Hiro is particularly enthusiastic about supporting student-led PhD projects that
 
 *Postdoctoral researchers*
 
-Hiro also welcomes inquiries from prospective postdoctoral researchers interested in developing fellowship applications. He is keen to support competitive applications for schemes such as [the British Academy Postdoctoral Fellowship](https://www.thebritishacademy.ac.uk/funding/schemes/postdoctoral-fellowships/), [the British Academy International Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/international-fellowships/), [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships), and other relevant national and international funding opportunities.
+Hiro also welcomes inquiries from prospective postdoctoral researchers interested in developing fellowship applications. He is keen to support competitive applications for schemes such as [the British Academy Postdoctoral Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/postdoctoral-fellowships/), [the British Academy International Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/international-fellowships/), [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships), and other relevant national and international funding opportunities.
 
 </div>
