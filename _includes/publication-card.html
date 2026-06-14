@@ -1,22 +1,18 @@
-{% comment %} Renders ONE publication as a card. Used by publications.md. {% endcomment %}
 {% include base_path %}
 {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% assign cover_path = "" %}
-{% if post.cover %}{% assign cover_path = post.cover %}
-{% elsif post.journal %}{% assign cover_path = "/images/journals/" | append: post.journal | append: ".jpg" %}{% endif %}
+{% if post.cover %}{% assign cover_path = post.cover %}{% elsif post.journal %}{% assign cover_path = "/images/journals/" | append: post.journal | append: ".jpg" %}{% endif %}
 <div class="pub-card{% if cover_path == '' %} pub-card--nocover{% endif %}">
-  {% if cover_path != "" %}
-    <div class="pub-card__cover"><img src="{{ cover_path | relative_url }}" alt="journal cover" loading="lazy" /></div>
-  {% endif %}
-  <div class="pub-card__body">
-    <div class="pub-card__title">{{ title }}</div>
-    {% if post.abstract %}<details class="pub-card__abstract"><summary>Abstract</summary><p>{{ post.abstract }}</p></details>{% endif %}
-    {% if post.citation %}<div class="pub-card__cite">{{ post.citation }}</div>{% endif %}
-    <div class="pub-card__links">
-      {% if post.paperurl %}<a class="pub-btn pub-btn--solid" href="{{ post.paperurl }}">PDF</a>{% endif %}
-      {% if post.link %}<a class="pub-btn" href="{{ post.link }}">DOI &#8599;</a>{% endif %}
-      {% if post.code %}<a class="pub-btn" href="{{ post.code }}">Code</a>{% endif %}
-      {% if post.github %}<a class="pub-btn" href="{{ post.github }}">GitHub</a>{% endif %}
-    </div>
-  </div>
+{% if cover_path != "" %}<div class="pub-card__cover"><img src="{{ cover_path | relative_url }}" alt="journal cover" loading="lazy" /></div>{% endif %}
+<div class="pub-card__body">
+<div class="pub-card__title">{{ title }}</div>
+{% if post.abstract %}<details class="pub-card__abstract"><summary>Abstract</summary><p>{{ post.abstract }}</p></details>{% endif %}
+{% if post.citation %}<div class="pub-card__cite">{{ post.citation }}</div>{% endif %}
+<div class="pub-card__links">
+{% if post.paperurl %}<a class="pub-btn pub-btn--solid" href="{{ post.paperurl }}">PDF</a>{% endif %}
+{% if post.link %}<a class="pub-btn" href="{{ post.link }}">DOI &#8599;</a>{% endif %}
+{% if post.code %}<a class="pub-btn" href="{{ post.code }}">Code</a>{% endif %}
+{% if post.github %}<a class="pub-btn" href="{{ post.github }}">GitHub</a>{% endif %}
+</div>
+</div>
 </div>
