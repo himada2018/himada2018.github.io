@@ -110,11 +110,22 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 ### Join the lab!
 
-Hiro is actively seeking undergraduate/postgraduate students to join his lab. If you are a current undergraduate/MSc student at Royal Holloway and interested in doing research with him, please contact him via email (Hirotaka.Imada[at]rhul.ac.uk). You can join him as a volunteer research assistant or apply to a research assistant bursary. He can offer you a range of research experiences (e.g., doing literature review, conducting experiments, designing experiments, writing a paper, etc.)
+We are actively seeking undergraduate, postgraduate, and postdoctoral researchers to join his lab.
 
-If you are interested in pursuing a PhD with him, please contact him via email to express your interest with your research idea and financial plans. Please visit [this page](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/) to figure out available PhD funding opportunities. Usually, deadlines for PhD funding applications are around December-January and if you are interested, you'd like to contact him as soon as possible to discuss your project/grant acquisition.
+#### Undergraduate and MSc students
 
-Hiro is particularly motivated to supervise student-led PhD projects on the following topics: [the psychological foundation of intergroup relations](https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/psychology/studying-here/research-degrees/research-degree-potential-projects/) and intergenerational cooperation (i.e., sustainable behaviour).
+If you are a current undergraduate or MSc student at Royal Holloway and are interested in conducting research with Hiro, please get in touch via email. You may join the lab as a volunteer research assistant or apply for a research assistant bursary.
 
+Students in the lab have opportunities to gain a wide range of research experiences, including conducting literature reviews, designing and running experiments, analysing data, and contributing to academic publications.
+
+#### Prospective PhD students
+
+If you are interested in pursuing a PhD in the CIP Lab, please contact Hiro via email with a brief description of your research interests, ideas, and potential funding plans. Information on available PhD funding opportunities can be found [here](https://www.royalholloway.ac.uk/research-and-education/departments-and-schools/psychology/studying-here/research-degrees/). As many funding schemes have deadlines around December–January, prospective applicants are encouraged to get in touch as early as possible to discuss project ideas and funding applications.
+
+Hiro is particularly enthusiastic about supporting student-led PhD projects that align with his research programme, especially those focusing on the psychological foundations of intergroup relations, intergenerational cooperation, and sustainable behaviour.
+
+#### Postdoctoral researchers
+
+Hiro also welcomes inquiries from prospective postdoctoral researchers interested in developing fellowship applications. He is keen to support competitive applications for schemes such as [the British Academy Postdoctoral Fellowship](https://www.thebritishacademy.ac.uk/funding/schemes/postdoctoral-fellowships/), [the British Academy International Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/international-fellowships/), [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships), and other relevant national and international funding opportunities.
 
 </div>
