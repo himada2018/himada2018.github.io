@@ -28,11 +28,20 @@ $news-col-width: 200px !default;
   }
 }
 
-/* When author_profile is false, reclaim the reserved left space too */
-.page-with-news--no-profile .page {
+/* When author_profile is false, the sidebar include isn't rendered at all
+   (see single-news.html), so reclaim the left space the theme reserves for it
+   and let the content + news fill the full width. */
+.page-with-news--no-profile {
   @include breakpoint($large) {
     padding-left: 0 !important;
     margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .page {
+    @include breakpoint($large) {
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+    }
   }
 }
 
