@@ -1,0 +1,96 @@
+/* ---------------------------------------------------------------------------
+   News sidebar (right-hand column)
+   Import this once from assets/css/main.scss:   @import "news-sidebar";
+   The news column width tracks the theme's author sidebar at every breakpoint.
+   --------------------------------------------------------------------------- */
+
+.page-with-news {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5em;
+  align-items: flex-start;
+
+  .page {
+    flex: 1 1 0;
+    min-width: 0;          /* stops long words widening the column */
+    float: none;           /* override the theme float so flex controls layout */
+    width: auto;
+    padding-right: 0;
+  }
+}
+
+/* When author_profile is false, the theme leaves a reserved left margin on
+   the content for the (now absent) profile sidebar. Reclaim it so the main
+   content uses the full freed width. */
+.page-with-news--no-profile .page {
+  @include breakpoint($large) {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+
+.news-sidebar {
+  flex: 0 0 $right-sidebar-width-narrow;
+  max-width: $right-sidebar-width-narrow;
+  font-size: 0.85em;
+  line-height: 1.5;
+
+  @include breakpoint($large) {
+    flex-basis: $right-sidebar-width;
+    max-width: $right-sidebar-width;
+  }
+
+  @include breakpoint($x-large) {
+    flex-basis: $right-sidebar-width-wide;
+    max-width: $right-sidebar-width-wide;
+  }
+
+  &__title {
+    margin: 0 0 0.6em;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #efefef;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    margin: 0 0 1.1em;
+    padding: 0;
+  }
+
+  &__date {
+    display: block;
+    font-weight: 700;
+    color: #898c8f;
+    font-size: 0.82em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.15em;
+  }
+
+  &__text {
+    display: block;
+    color: #494e52;
+  }
+}
+
+/* Stack the news under the content on narrow screens */
+@media (max-width: 64em) {
+  .page-with-news {
+    display: block;
+  }
+  .news-sidebar {
+    flex: none;
+    max-width: none;
+    margin-top: 2.5em;
+    padding-top: 1.5em;
+    border-top: 1px solid #efefef;
+  }
+}

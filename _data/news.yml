@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------------------
+# NEWS / UPDATES  (shown on the homepage)
+#
+# To add an item, copy a block below and put it at the TOP (newest first).
+#   date : free text, shown above the item. e.g. "Jun 2026", "Spring 2026"
+#   text : the update. **bold**, *italic*, and [links](https://...) all work.
+#   link : OPTIONAL. If set, the whole item becomes clickable. Delete if unused.
+#
+# Order is exactly how you list them here — nothing is sorted automatically.
+# Tip: use the news-generator.html tool to build/edit this file visually.
+# ---------------------------------------------------------------------------
+
+- date: "June 2026"
+  text: "New commentary out in *PNAS* with Qinyu Xiao."
+  link: "https://www.pnas.org/doi/10.1073/pnas.2606967123"
+  
+- date: "June 2026"
+  text: "Hiro gave a talk at the International Conference on Social Dilemmas."
+  link: "https://sites.google.com/view/icsd2026"
+
+- date: "Apr 2026"
+  text: "Hiro gave an invited lecture at Unviersity of St. Andrews"
+
+- date: "Mar 2026"
+  text: "New paper out in *EHS* with Wakaba Tateishi on indirect reciprocity and group."
+  link: "https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/social-norms-and-groupbounded-indirect-reciprocity/820828F81045E074BDA01B22C0D0B874"
+
+- date: "Mar 2026"
+  text: "Hiro was named as an APS Rising Star by the Association for Psychological Science (APS)."
+  link: "https://www.psychologicalscience.org/members/awards-and-honors/aps-rising-stars/news-rising-stars"
+
+- date: "Mar 2026"
+  text: "New paper out in *Rsearch & Politics* with Makito Takei and Chanki Moon on audience cost."
+  link: "https://journals.sagepub.com/doi/full/10.1177/20531680261428603"
+  
+- date: "Mar 2026"
+  text: "Hiro has joined GPIR as an associate editor."
+  link: "https://journals.sagepub.com/editorial-board/GPI"

@@ -1,4 +1,5 @@
 ---
+layout: single-news
 layout: archive
 title: "Cooperation and Intergrop Processes Lab"
 permalink: /ciplab/
