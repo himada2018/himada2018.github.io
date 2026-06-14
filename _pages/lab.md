@@ -101,7 +101,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 <table class="lab-table">
   <thead><tr><th>Name</th><th>Years in lab</th></tr></thead>
   <tbody>
-    <tr><td><a href="https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8">Rui Sun</a></td><td>2024–2025</td></tr>
+    <tr><td><a href="https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8">Rui Sun</a></td><td>2024-2025</td></tr>
   </tbody>
 </table>
 </div>
