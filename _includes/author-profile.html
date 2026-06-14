@@ -1,5 +1,24 @@
 {% include base_path %}
 
+{% comment %} Load current Font Awesome brands so the X and Bluesky glyphs render
+   even though the theme bundles an older Font Awesome. Scoped to brand icons. {% endcomment %}
+<style>
+@font-face {
+  font-family: "FA Brands New";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.woff2") format("woff2");
+}
+.social-icons .fa-x-twitter,
+.social-icons .fa-bluesky {
+  font-family: "FA Brands New" !important;
+  font-weight: 400;
+}
+.social-icons .fa-x-twitter:before { content: "\e61b"; }
+.social-icons .fa-bluesky:before  { content: "\e671"; }
+</style>
+
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
@@ -41,7 +60,10 @@
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
       {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        <li><a href="https://x.com/{{ author.twitter }}"><i class="fa-brands fa-fw fa-x-twitter" aria-hidden="true"></i> X</a></li>
+      {% endif %}
+      {% if author.bluesky %}
+        <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fa-brands fa-fw fa-bluesky" aria-hidden="true"></i> Bluesky</a></li>
       {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
