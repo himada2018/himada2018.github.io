@@ -157,6 +157,8 @@
     </div>
     <label>Collection</label>
     <input type="text" id="collection" value="publications" />
+    <label>Journal slug <span class="hint">optional — for the lab-page cover. e.g. cognition-and-emotion (matches /images/journals/cognition-and-emotion.jpg)</span></label>
+    <input type="text" id="journal" placeholder="cognition-and-emotion" />
     <label>Output .md filename <span class="hint">e.g. 2025-18.md (year-counter)</span></label>
     <input type="text" id="mdName" placeholder="2025-18.md" />
   </div>
@@ -278,7 +280,10 @@ function generate() {
   const pdfName = $("pdfName").value.trim();
   const doi = $("doi").value.trim();
   const collection = $("collection").value.trim() || "publications";
+  const journal = $("journal").value.trim();
   const citation = buildCitation();
+
+  const journalLine = journal ? `journal: ${journal}\n` : "";
 
   const md =
 `---
@@ -287,7 +292,7 @@ collection: ${collection}
 permalink: /publication/${slug}.pdf
 paperurl: '/files/${pdfName}'
 link: '${doi}'
-citation: '${citation.replace(/'/g,"''")}'
+${journalLine}citation: '${citation.replace(/'/g,"''")}'
 ---
 
 `;
