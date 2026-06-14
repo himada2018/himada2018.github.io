@@ -217,7 +217,7 @@ function setFile(f) {
 function buildCitation() {
   const rows = [...authorsBox.querySelectorAll(".author-row")];
   let anyShared = false;
-  const names = rows.map(r => {
+  const authors = rows.map(r => {
     let n = r.querySelector("input[type=text]").value.trim();
     if (!n) return null;
     const isMe = r.querySelector(".me").checked;
@@ -225,14 +225,36 @@ function buildCitation() {
     const shared = r.querySelector(".shared").checked;
     if (shared) anyShared = true;
     if (isMe) n = `<u>${n}</u>`;
-    let prefix = (corr ? "*" : "") + (shared ? "†" : "");
-    return prefix + n;
+    const prefix = (corr ? "*" : "") + (shared ? "†" : "");
+    return { name: prefix + n, isMe };
   }).filter(Boolean);
 
+  const names = authors.map(a => a.name);
+
   let authorStr;
-  if (names.length <= 1) authorStr = names[0] || "";
-  else if (names.length === 2) authorStr = names[0] + ", & " + names[1];
-  else authorStr = names.slice(0,-1).join(", ") + ", & " + names[names.length-1];
+  if (names.length <= 1) {
+    authorStr = names[0] || "";
+  } else if (names.length <= 20) {
+    // APA: up to 20 authors -> list all, ampersand before last
+    authorStr = names.slice(0,-1).join(", ") + ", & " + names[names.length-1];
+  } else {
+    // APA 21+: first 19 names, ellipsis, final name.
+    const ELLIPSIS = ". . .";
+    const first19 = names.slice(0, 19);
+    const last = names[names.length - 1];
+    const meIdx = authors.findIndex(a => a.isMe);
+    const meInFirst19 = meIdx > -1 && meIdx < 19;
+    const meIsLast = meIdx === names.length - 1;
+
+    if (meIdx === -1 || meInFirst19 || meIsLast) {
+      // "me" already shown (or no me) -> standard APA truncation
+      authorStr = first19.join(", ") + ", " + ELLIPSIS + " " + last;
+    } else {
+      // "me" would be cut -> inject after ellipsis, before final author
+      authorStr = first19.join(", ") + ", " + ELLIPSIS + " " +
+                  names[meIdx] + ", " + ELLIPSIS + " " + last;
+    }
+  }
 
   const year = $("year").value.trim();
   const title = $("title").value.trim().replace(/\s+/g," ");
