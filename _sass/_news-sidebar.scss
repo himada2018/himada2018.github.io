@@ -1,136 +1,119 @@
 /* ---------------------------------------------------------------------------
    News sidebar (right-hand column)
+   Self-contained: no theme variables or mixins, so it can't silently fail.
    Import once from assets/css/main.scss:   @import "news-sidebar";
-
-   Layout goal: three balanced columns -> profile | content | news, where the
-   news column is as wide as the profile column and the middle text wraps to
-   make room. We force the theme's .page width so the middle actually shrinks.
    --------------------------------------------------------------------------- */
 
-/* width shared by the news column (matches the author/profile sidebar) */
-$news-col-width: 200px !default;
-
+/* three balanced columns: profile | content | news */
 .page-with-news {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
-  gap: 2.5em;
+  gap: 2em;
   align-items: flex-start;
-
-  /* Force the middle content to flex instead of using the theme's fixed
-     ~75% width. !important is needed to beat the theme's .page width rule. */
-  .page {
-    flex: 1 1 0 !important;
-    width: auto !important;
-    min-width: 0;          /* lets long words wrap instead of widening column */
-    float: none !important;
-    padding-right: 0;
-    margin-right: 0;
-  }
 }
 
-/* When author_profile is false, the sidebar include isn't rendered at all
-   (see single-news.html), so reclaim the left space the theme reserves for it
-   and let the content + news fill the full width. */
+.page-with-news .page {
+  flex: 1 1 0 !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  float: none !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  clear: none !important;
+}
+
+/* when author_profile is false, the sidebar isn't rendered (see layout),
+   so pull the content all the way left and use the full width */
 .page-with-news--no-profile {
-  @include breakpoint($large) {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    width: 100% !important;
-  }
-  .page {
-    @include breakpoint($large) {
-      padding-left: 0 !important;
-      margin-left: 0 !important;
-    }
-  }
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  width: 100% !important;
+}
+.page-with-news--no-profile .page {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
 
-/* ---- the news column ---- */
+/* the news column */
 .news-sidebar {
-  flex: 0 0 $news-col-width;
-  max-width: $news-col-width;
-  min-width: $news-col-width;
-  font-size: 0.8em;
+  flex: 0 0 200px !important;
+  width: 200px !important;
+  max-width: 200px !important;
+  min-width: 200px !important;
+  font-size: 14px;
   line-height: 1.5;
-
-  &__title {
-    margin: 0 0 0.7em;
-    padding-bottom: 0.35em;
-    border-bottom: 2px solid #efefef;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-weight: 700;
-  }
-
-  /* Show ~5 items, then scroll for older news.
-     The max-height is sized so the 6th item is partly cut off, which signals
-     "scroll for more". Adjust the px value to taste. */
-  &__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    max-height: 460px;
-    overflow-y: auto;
-    /* subtle fade + thin scrollbar */
-    scrollbar-width: thin;
-    scrollbar-color: #d8d6cf transparent;
-    padding-right: 4px;
-  }
-  &__list::-webkit-scrollbar { width: 6px; }
-  &__list::-webkit-scrollbar-thumb {
-    background: #d8d6cf;
-    border-radius: 3px;
-  }
-  &__list::-webkit-scrollbar-track { background: transparent; }
-
-  /* each news item is a framed card */
-  &__item {
-    margin: 0 0 0.7em;
-    padding: 0.7em 0.8em;
-    background: #fcfbf9;
-    border: 1px solid #eceae3;
-    border-radius: 8px;
-    transition: box-shadow .15s, border-color .15s;
-  }
-  &__item:hover {
-    border-color: #d8d6cf;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-  }
-  &__item:last-child { margin-bottom: 0.2em; }
-
-  &__date {
-    display: block;
-    font-weight: 700;
-    color: #8a8d90;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    margin-bottom: 0.25em;
-  }
-
-  &__text {
-    display: block;
-    color: #45494d;
-  }
-  &__text a { word-break: break-word; }
+  box-sizing: border-box;
 }
 
-/* ---- responsive: stack news under content on narrow screens ---- */
-@media (max-width: 64em) {
-  .page-with-news {
-    display: block;
-  }
+.news-sidebar__title {
+  margin: 0 0 0.7em;
+  padding-bottom: 0.35em;
+  border-bottom: 2px solid #e8e6df;
+  font-size: 0.95em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: #4a4e52;
+}
+
+/* show ~5 items then scroll for older news */
+.news-sidebar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0 4px 0 0;
+  max-height: 460px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #d8d6cf transparent;
+}
+.news-sidebar__list::-webkit-scrollbar { width: 6px; }
+.news-sidebar__list::-webkit-scrollbar-thumb { background: #d8d6cf; border-radius: 3px; }
+.news-sidebar__list::-webkit-scrollbar-track { background: transparent; }
+
+/* each item is a framed card */
+.news-sidebar__item {
+  margin: 0 0 0.7em;
+  padding: 0.7em 0.8em;
+  background: #fcfbf9;
+  border: 1px solid #eceae3;
+  border-radius: 8px;
+  transition: box-shadow .15s, border-color .15s;
+}
+.news-sidebar__item:hover {
+  border-color: #d8d6cf;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.news-sidebar__item:last-child { margin-bottom: 0.2em; }
+
+.news-sidebar__date {
+  display: block;
+  font-weight: 700;
+  color: #8a8d90;
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.25em;
+}
+
+.news-sidebar__text {
+  display: block;
+  color: #45494d;
+  font-size: 0.92em;
+}
+.news-sidebar__text a { word-break: break-word; }
+
+/* stack the news under the content on narrower screens */
+@media (max-width: 1024px) {
+  .page-with-news { display: block !important; }
   .news-sidebar {
-    flex: none;
-    min-width: 0;
-    max-width: none;
+    flex: none !important;
+    width: auto !important;
+    max-width: none !important;
+    min-width: 0 !important;
     margin-top: 2.5em;
     padding-top: 1.5em;
-    border-top: 1px solid #efefef;
+    border-top: 1px solid #e8e6df;
   }
-  .news-sidebar__list {
-    max-height: none;   /* no inner scroll on mobile; let the page scroll */
-    overflow: visible;
-  }
+  .news-sidebar__list { max-height: none; overflow: visible; }
 }
