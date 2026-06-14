@@ -102,6 +102,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
     <tr><td>Jack McCart</td><td>Undergraduate Research Assistant</td><td>2024-2026</td></tr>
     <tr><td>Cecilia Gregorio</td><td>Undergraduate Research Assistant</td><td>2024-2025</td></tr>
     <tr><td>Kseniya Guedroitz</td><td>Undergraduate Research Assistant</td><td>2024-2025</td></tr>
+    <tr><td><a href="https://www.linkedin.com/in/lingyu-meng-a884662a4/">Lingyu Meng</a></td><td>External Research Assistant</td></tr>
   </tbody>
 </table>
 </div>
