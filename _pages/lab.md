@@ -41,7 +41,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 <p class="lab-subhead">Research projects</p>
 
-<div class="project-grid">
+<div class="project-rail">
 
   <a class="project-card" href="/projects/intergroup-pluralistic-ignorance/">
     <div class="project-card__title">Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change</div>
@@ -59,7 +59,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 <p class="lab-subhead">Impact activities</p>
 
-<div class="project-grid">
+<div class="project-rail">
 
   <a class="project-card project-card--impact" href="/projects/echoes-of-care/">
     <div class="project-card__title">Echoes of Care</div>
@@ -81,16 +81,12 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 <div class="lab-table-wrap">
 <table class="lab-table">
-  <thead><tr><th>Name</th><th>Graduation year</th></tr></thead>
+  <thead><tr><th>Name</th><th>Role</th></tr></thead>
   <tbody>
-    <tr><td>Damita Saboor</td><td>2025</td></tr>
-    <tr><td>Jack McCart</td><td>2026</td></tr>
-    <tr><td>Cecilia Gregorio</td><td>2026</td></tr>
-    <tr><td>Kseniya Guedroitz</td><td>2026</td></tr>
-    <tr><td>Alana Middleton</td><td>2026</td></tr>
-    <tr><td>Maximus Sadiku</td><td>2026</td></tr>
-    <tr><td>Georgia Cross</td><td>2027</td></tr>
-    <tr><td>Jasmina von Lowenburg</td><td>2028</td></tr>
+    <tr><td>Alana Middleton</td><td>Impact and Partnerships Associate</td></tr>
+    <tr><td>Maximus Sadiku</td><td>Undergraduate Research Assistant</td></tr>
+    <tr><td>Georgia Cross</td><td>Impact and Partnerships Associate</td></tr>
+    <tr><td>Jasmina von Lowenburg</td><td>Undergraduate Research Assistant</td></tr>
   </tbody>
 </table>
 </div>
@@ -99,9 +95,13 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 <div class="lab-table-wrap">
 <table class="lab-table">
-  <thead><tr><th>Name</th><th>Years in lab</th></tr></thead>
+  <thead><tr><th>Name</th><th>Role</th><th>Years in lab</th></tr></thead>
   <tbody>
-    <tr><td><a href="https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8">Rui Sun</a></td><td>2024-2025</td></tr>
+    <tr><td><a href="https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8">Rui Sun</a></td><td>External Research Assistant</td><td>2024-2025</td></tr>
+    <tr><td>Damita Saboor</td><td>Undergraduate Research Assistant</td><td>2024-2025</td></tr>
+    <tr><td>Jack McCart</td><td>Undergraduate Research Assistant</td><td>2024-2026</td></tr>
+    <tr><td>Cecilia Gregorio</td><td>Undergraduate Research Assistant</td><td>2024-2025</td></tr>
+    <tr><td>Kseniya Guedroitz</td><td>Undergraduate Research Assistant</td><td>2024-2025</td></tr>
   </tbody>
 </table>
 </div>
