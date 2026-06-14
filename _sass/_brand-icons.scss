@@ -1,0 +1,24 @@
+/* ---------------------------------------------------------------------------
+   X (Twitter) and Bluesky brand icons
+   The theme bundles an older Font Awesome that lacks the X and Bluesky glyphs.
+   This loads the current Font Awesome brands webfont from a CDN, scoped ONLY
+   to these two icons, so nothing else is affected.
+   Import once from assets/css/main.scss:   @import "brand-icons";
+   --------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "FA Brands New";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.woff2") format("woff2");
+}
+
+.social-icons .fa-x-twitter,
+.social-icons .fa-bluesky {
+  font-family: "FA Brands New" !important;
+  font-weight: 400;
+}
+
+.social-icons .fa-x-twitter:before { content: "\e61b"; }
+.social-icons .fa-bluesky:before  { content: "\e671"; }
