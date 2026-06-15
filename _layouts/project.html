@@ -11,6 +11,7 @@
 #   status        : e.g. "Active" or "Completed" (shown as a pill; omit to hide)
 #   members       : list of { name, url }   (url optional)
 #   collaborators : list of { name, url }   (url optional)
+#   partners      : list of { name, url }   (url optional)
 #   papers        : list of { citation, url, cover }  (url & cover optional)
 #   back_url      : link the "Back" button points to (default /ciplab/)
 #   back_label    : text of the back button (default "Back to CIP Lab")
@@ -45,7 +46,7 @@ layout: default
         {{ content }}
       </section>
 
-      {% if page.members or page.collaborators %}
+      {% if page.members or page.collaborators or page.partners %}
       <div class="project-people">
         {% if page.members %}
         <div class="project-people__col">
@@ -62,6 +63,16 @@ layout: default
           <div class="project-people__label">Collaborators</div>
           <div class="project-people__list">
             {% for p in page.collaborators %}
+              {% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}<span>{{ p.name }}</span>{% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+        {% if page.partners %}
+        <div class="project-people__col">
+          <div class="project-people__label">Partners</div>
+          <div class="project-people__list">
+            {% for p in page.partners %}
               {% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}<span>{{ p.name }}</span>{% endif %}
             {% endfor %}
           </div>

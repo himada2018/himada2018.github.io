@@ -28,6 +28,6 @@ This exploratory project, Echoes of Care, brings together psychological science 
 In collaboration with multimedia artist Kat Pegler and Richmond Arts Service/Orleans House Gallery, we will create an interactive installation that invites visitors to rediscorve their relationship with nature. 
 
 <div class="project-images-row">
-  ![](/images/projects/echoes.jpg)
+  ![](/images/projects/echoes.png)
 </div>
 
