@@ -15,15 +15,15 @@ redirect_from:
 
 Hiro is an associate professor at Royal Holloway, University of London, and a visiting associate professor at the Research Institute for Future Design at the Kochi University of Technology. He earned a PhD from the University of Kent in 2022 (PhD supervisors: Prof. Tim Hopthrow, Prof. Dominic Abrams, and Dr. Jim Everett).
 
-His academic interests lie in social and evolutionary psychology and he is interested in understanding cooperation, in particular, in intergroup contexts. He has been undertaking a wide range of projects and he addresses questions such as how indirect reciprocity guides (intergroup) cooperation, why people gossip and how it facilitates prosociality within/across group boundaries, and how we can promote intergenerational and post-disaster cooperation.
+His academic interests lie at the intersection of social and evolutionary psychology with a particular focus on cooperation in intergroup contexts. He has been undertaking a wide range of projects and he addresses questions such as how indirect reciprocity guides (intergroup) cooperation, why people gossip and how it facilitates prosociality within/across group boundaries, and how we can promote intergenerational and post-disaster cooperation. 
 
-He is actively engaged in service to the discipline of social psychology. He serves as an Associate Editor of Group Processes & Intergroup Relations and as a member of the Editorial Board of the Asian Journal of Social Psychology.
+He is actively engaged in service to the discipline of social psychology. He serves as an Associate Editor of *Group Processes & Intergroup Relations* and as a member of the Editorial Board of *the Asian Journal of Social Psychology*.
 
 His contributions to research and scholarship have been recognised through several distinctions. He received the Rising Star Designation from the Association for Psychological Science, the Solomon Asch Early Career Award from the Polish Social Psychological Society, and the Literati Award for Outstanding Reviewer from Emerald Publishing. 
 
-His research has attracted competitive funding from major organisations. His research has been supported, for instance, by the Leverhulme Research Project Grant, the British Academy Talent Development Award, and the research grant by the Murata Science and Education Foundation. Through such support, he pursues research on social and intergroup processes with the aim of advancing theoretical understanding while addressing pressing societal challenges. 
+His research has attracted competitive funding from major organisations, including the Leverhulme Research Project Grant, the British Academy Talent Development Award, and a research grant by the Murata Science and Education Foundation. Through this support, he pursues research on social and intergroup processes with the aim of advancing theoretical understanding while addressing pressing societal challenges. 
 
-He likes talking and doing nonsense with his friends and he also enjoys playing jazz. When he was younger, he traveled abroad by himself with his trumpet and hit local jam sessions in many countries. He currently plays for [the Runnymede Jazz Orchestra](https://runnymedejazzorchestra.co.uk/) and a regular participant of [the Woods Shed Jazz Club](https://www.villagecentre.org.uk/group/the-woods-shed-jazz-club/).
+Outside academia, Hiro enjoys spending time with friends, mmaking music, and playing jazz. When he was younger, he travelled a lot with his trumpet, joining local jam sessions in many countries along the way. He currently plays with [the Runnymede Jazz Orchestra](https://runnymedejazzorchestra.co.uk/) and a regular at [the Woods Shed Jazz Club](https://www.villagecentre.org.uk/group/the-woods-shed-jazz-club/).
 
 ![image](/assets/images/imada_web_touka_c-01-r.png)
 
