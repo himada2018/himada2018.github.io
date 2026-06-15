@@ -12,7 +12,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 <div class="member-grid">
 
   <div class="member-card">
-    <img class="member-card__photo" src="/images/members/hirotaka-imada.jpg" alt="Hirotaka Imada" />
+    <img class="member-card__photo" src="/images/members/hirotaka-imada.jpg" alt="Hirotaka Imada"/>
     <div class="member-card__name"><a href="https://himada2018.github.io/">Hirotaka Imada</a></div>
     <div class="member-card__role">PI</div>
   </div>
@@ -24,7 +24,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
   </div>
 
   <div class="member-card">
-    <div class="member-card__initials">KW</div>
+    <img class="member-card__photo" src="/images/members/katie-webb.jpg" alt="Katie Webb"/>
     <div class="member-card__name"><a href="https://pure.royalholloway.ac.uk/en/persons/katie-webb/">Katie Webb</a></div>
     <div class="member-card__role">PhD Student</div>
   </div>
