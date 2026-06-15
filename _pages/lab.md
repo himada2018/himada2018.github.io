@@ -63,7 +63,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
   <a class="project-card project-card--impact" href="/projects/echoes-of-care/">
     <div class="project-card__title">Echoes of Care</div>
-    <div class="project-card__meta">with Richmond Arts Service · January 2026 -</div>
+    <div class="project-card__meta">with Richmond Arts Service · January 2026 - present</div>
   </a>
 
   <a class="project-card project-card--impact" href="/projects/renewable-energy-cooperation/">

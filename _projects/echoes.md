@@ -3,7 +3,7 @@ layout: project
 title: "Echoes of Care"
 permalink: /projects/echoes-of-care/
 funder: "RH Social Science Impact Accelerator"
-length: "Jan 2026 -"
+length: "Jan 2026 - present"
 status: "Active"          
 
 members:
