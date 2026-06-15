@@ -22,7 +22,7 @@ author_profile: true
 {% assign of_list = pubs | where: "online_first", true %}
 {% if of_list and of_list.size > 0 %}
 <div class="pub-year-block" data-year="press">
-<h2 class="pub-year pub-year--press">In press / Online first</h2>
+<h2 class="pub-year pub-year--press">In press</h2>
 <div class="pub-year-group">
 {% for post in of_list %}{% include publication-card.html %}{% endfor %}
 </div>
