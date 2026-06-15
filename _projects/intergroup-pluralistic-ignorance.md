@@ -7,7 +7,7 @@ length: "January 2026 - December 2030"
 status: "Active"
 
 members:
-  - name: "Hirotaka Imada"
+  - name: "Hirotaka Imada (PI)"
   - name: "Taeik Kim"
   - name: "Eliza Vettou"
 
