@@ -60,7 +60,8 @@
 /* --- description: images embedded in the Markdown body --- */
 .project-description {
   img {
-    max-width: 100%;
+    max-width: 480px;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     display: block;
