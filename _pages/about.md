@@ -23,7 +23,7 @@ He likes talking and doing nonsense with his friends and he also enjoys playing 
 
 </div>
 
-# What's on
+# What's on (jazz)
 
 {% include gigs.html %}
 

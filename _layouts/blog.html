@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main" class="blog-main">
+  <article class="blog-post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="blog-post__header">
+      {% if page.eyebrow %}<p class="blog-post__eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1 class="blog-post__title" itemprop="headline">{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="blog-post__subtitle">{{ page.subtitle }}</p>{% endif %}
+      <p class="blog-post__meta">
+        {% if page.author %}<span>{{ page.author }}</span>{% endif %}
+        {% if page.date %}<span>· {{ page.date | date: "%B %Y" }}</span>{% endif %}
+        {% if page.read_time %}<span>· {{ page.read_time }}</span>{% endif %}
+      </p>
+    </header>
+
+    {% if page.hero %}
+    <div class="blog-post__hero">
+      <img src="{{ page.hero }}" alt="{{ page.hero_alt | default: page.title }}" />
+      {% if page.hero_caption %}<p class="blog-post__caption">{{ page.hero_caption }}</p>{% endif %}
+    </div>
+    {% endif %}
+
+    <div class="blog-post__body" itemprop="articleBody">
+      {{ content }}
+    </div>
+
+    {% if page.paper_title %}
+    <div class="blog-post__paper">
+      <p class="blog-post__paper-label">Based on the paper</p>
+      <p class="blog-post__paper-title">{{ page.paper_title }}</p>
+      {% if page.paper_citation %}<p class="blog-post__paper-cite">{{ page.paper_citation }}</p>{% endif %}
+      <p class="blog-post__paper-links">
+        {% if page.paper_doi %}<a class="pub-btn" href="{{ page.paper_doi }}">DOI &#8599;</a>{% endif %}
+        {% if page.paper_pdf %}<a class="pub-btn pub-btn--solid" href="{{ page.paper_pdf }}">PDF</a>{% endif %}
+        <a class="pub-btn" href="/publications/">All publications</a>
+      </p>
+    </div>
+    {% endif %}
+
+    <p class="blog-post__back"><a href="/publications/">&larr; Back to publications</a></p>
+
+  </article>
+</div>

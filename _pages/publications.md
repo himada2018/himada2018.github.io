@@ -22,7 +22,7 @@ author_profile: true
 {% assign of_list = pubs | where: "online_first", true %}
 {% if of_list and of_list.size > 0 %}
 <div class="pub-year-block" data-year="press">
-<h2 class="pub-year pub-year--press">In press</h2>
+<h2 class="pub-year pub-year--press">In press / Online first</h2>
 <div class="pub-year-group">
 {% for post in of_list %}{% include publication-card.html %}{% endfor %}
 </div>
@@ -38,6 +38,19 @@ author_profile: true
 
 <script>
 (function(){
+  function normalize(s){
+    s = (s || '').toLowerCase();
+    s = s.replace(/is(e|ed|es|ing|ation)/g, function(m,p){ return 'iz'+p; });
+    s = s.replace(/(behavi|col|fav|hon|hum|lab|neighb|harb|flav|rum|val|vap|od|vig|rig)our/g, '$1or');
+    s = s.replace(/yse/g,'yze');
+    s = s.replace(/(catal|dial|analog|monol|prol)ogue/g,'$1og');
+    s = s.replace(/modelling/g,'modeling').replace(/modelled/g,'modeled').replace(/labelling/g,'labeling').replace(/labelled/g,'labeled').replace(/travelling/g,'traveling').replace(/travelled/g,'traveled');
+    s = s.replace(/ae/g,'e').replace(/oe/g,'e');
+    s = s.replace(/centre/g,'center').replace(/theatre/g,'theater').replace(/metre/g,'meter');
+    s = s.replace(/defence/g,'defense').replace(/offence/g,'offense').replace(/licence/g,'license');
+    s = s.replace(/grey/g,'gray');
+    return s;
+  }
   function initPubFilter(){
     var search = document.getElementById('pubSearch');
     var chipsBox = document.getElementById('pubYearChips');
@@ -47,6 +60,11 @@ author_profile: true
     chipsBox.setAttribute('data-ready','1');
 
     var blocks = Array.prototype.slice.call(document.querySelectorAll('.pub-year-block'));
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.pub-card'));
+    cards.forEach(function(card){
+      card.setAttribute('data-search', normalize(card.textContent || ''));
+    });
+
     var years = [];
     blocks.forEach(function(b){
       var y = b.getAttribute('data-year');
@@ -73,7 +91,7 @@ author_profile: true
     years.forEach(function(y){ chipsBox.appendChild(makeChip(y, y)); });
 
     function apply(){
-      var q = (search.value || '').trim().toLowerCase();
+      var q = normalize(search.value || '').trim();
       var anyVisible = false;
       blocks.forEach(function(block){
         var by = block.getAttribute('data-year');
@@ -82,7 +100,7 @@ author_profile: true
         var blockCards = Array.prototype.slice.call(block.querySelectorAll('.pub-card'));
         var visibleInBlock = 0;
         blockCards.forEach(function(card){
-          var text = (card.textContent || '').toLowerCase();
+          var text = card.getAttribute('data-search') || '';
           var match = yearOk && (q === '' || text.indexOf(q) !== -1);
           card.style.display = match ? '' : 'none';
           if(match){ visibleInBlock++; anyVisible = true; }

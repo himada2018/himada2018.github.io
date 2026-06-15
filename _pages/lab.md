@@ -24,7 +24,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
   </div>
 
   <div class="member-card">
-    <img class="member-card__photo" src="/images/members/katie-webb.jpg" alt="Katie Webb" />
+    <div class="member-card__initials">KW</div>
     <div class="member-card__name"><a href="https://pure.royalholloway.ac.uk/en/persons/katie-webb/">Katie Webb</a></div>
     <div class="member-card__role">PhD Student</div>
   </div>
@@ -77,7 +77,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 {% include recent-papers.html count=6 %}
 
-<p class="lab-section-title">Research Assistants</p>
+<p class="lab-section-title">Undergraduate members</p>
 
 <div class="lab-table-wrap">
 <table class="lab-table">
@@ -93,16 +93,15 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 <p class="lab-section-title">Lab alumni</p>
 
-<div class="lab-table-wrap">
+<div class="lab-table-wrap lab-table-wrap--scroll">
 <table class="lab-table">
   <thead><tr><th>Name</th><th>Role</th><th>Years in lab</th></tr></thead>
   <tbody>
-    <tr><td><a href="https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8">Rui Sun</a></td><td>External Research Assistant</td><td>2024-2025</td></tr>
-    <tr><td>Damita Saboor</td><td>Undergraduate Research Assistant</td><td>2024-2025</td></tr>
     <tr><td>Jack McCart</td><td>Undergraduate Research Assistant</td><td>2024-2026</td></tr>
     <tr><td>Cecilia Gregorio</td><td>Undergraduate Research Assistant</td><td>2024-2025</td></tr>
+    <tr><td>Damita Saboor</td><td>Undergraduate Research Assistant</td><td>2024-2025</td></tr>
     <tr><td>Kseniya Guedroitz</td><td>Undergraduate Research Assistant</td><td>2024-2025</td></tr>
-    <tr><td><a href="https://www.linkedin.com/in/lingyu-meng-a884662a4/">Lingyu Meng</a></td><td>External Research Assistant</td><td>2025-2026</td></tr>
+    <tr><td><a href="https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8">Rui Sun</a></td><td>External Research Assistant</td><td>2024-2025</td></tr>
   </tbody>
 </table>
 </div>
@@ -111,7 +110,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 ### Join the lab!
 
-We are actively seeking undergraduate, postgraduate, and postdoctoral researchers to join our lab.
+We are actively seeking undergraduate, postgraduate, and postdoctoral researchers to join his lab.
 
 *Undergraduate and MSc students*
 
@@ -127,6 +126,6 @@ Hiro is particularly enthusiastic about supporting student-led PhD projects that
 
 *Postdoctoral researchers*
 
-Hiro also welcomes inquiries from prospective postdoctoral researchers interested in developing fellowship applications. He is keen to support competitive applications for schemes such as [the British Academy Postdoctoral Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/postdoctoral-fellowships/), [the British Academy International Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/international-fellowships/), [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships), and other relevant national and international funding opportunities.
+Hiro also welcomes inquiries from prospective postdoctoral researchers interested in developing fellowship applications. He is keen to support competitive applications for schemes such as [the British Academy Postdoctoral Fellowship](https://www.thebritishacademy.ac.uk/funding/schemes/postdoctoral-fellowships/), [the British Academy International Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/international-fellowships/), [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships), and other relevant national and international funding opportunities.
 
 </div>

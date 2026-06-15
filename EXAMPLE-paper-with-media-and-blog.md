@@ -1,0 +1,17 @@
+---
+title: "Ingroup favoritism and outgroup derogation in intergenerational cooperation"
+collection: publications
+permalink: /publication/Imada_CommPsychol.pdf
+paperurl: '/files/Imada et al. (2025) CommPsychol.pdf'
+link: 'https://doi.org/10.1038/s44271-025-00272-z'
+journal: communications-psychology
+media:
+  - label: "BBC"
+    url: "https://www.bbc.co.uk/news/example"
+  - label: "The Guardian"
+    url: "https://www.theguardian.com/example"
+blog:
+  - label: "Plain-language summary"
+    url: "/blog/intergenerational-cooperation/"
+citation: '<u>*Imada, H.</u>, Inoue, Y., Yamamoto-Wilson, A., Saijo, T., & Mifune, N. (2025). Ingroup favoritism and outgroup derogation in intergenerational cooperation. <em>Communications Psychology</em>, 3(1), 89. https://doi.org/10.1038/s44271-025-00272-z'
+---

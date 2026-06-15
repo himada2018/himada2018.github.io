@@ -13,6 +13,8 @@
 {% if post.link %}<a class="pub-btn" href="{{ post.link }}">DOI &#8599;</a>{% endif %}
 {% if post.code %}<a class="pub-btn" href="{{ post.code }}">Code</a>{% endif %}
 {% if post.github %}<a class="pub-btn" href="{{ post.github }}">GitHub</a>{% endif %}
+{% if post.blog %}{% for b in post.blog %}<a class="pub-btn pub-btn--blog" href="{{ b.url }}">✎ {{ b.label | default: "Blog" }}</a>{% endfor %}{% endif %}
+{% if post.media %}{% for m in post.media %}<a class="pub-btn pub-btn--media" href="{{ m.url }}">{{ m.label }} &#8599;</a>{% endfor %}{% endif %}
 </div>
 </div>
 </div>

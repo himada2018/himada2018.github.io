@@ -157,8 +157,8 @@
     </div>
     <label>Collection</label>
     <input type="text" id="collection" value="publications" />
-    <label>Journal slug <span class="hint">optional — for the lab-page cover. e.g. cognition-and-emotion (matches /images/journals/cognition-and-emotion.jpg)</span></label>
-    <input type="text" id="journal" placeholder="cognition-and-emotion" />
+    <label>Cover image filename <span class="hint">optional — the journal cover in /images/journals/. Enter the FULL filename with extension (jpg, png, gif, webp). e.g. cognition-and-emotion.jpg</span></label>
+    <input type="text" id="coverFile" placeholder="cognition-and-emotion.jpg" />
     <label>Output .md filename <span class="hint">e.g. 2025-18.md (year-counter)</span></label>
     <input type="text" id="mdName" placeholder="2025-18.md" />
   </div>
@@ -281,9 +281,10 @@ function generate() {
   const doi = $("doi").value.trim();
   const collection = $("collection").value.trim() || "publications";
   const journal = $("journal").value.trim();
+  const coverFile = $("coverFile").value.trim();
   const citation = buildCitation();
 
-  const journalLine = journal ? `journal: ${journal}\n` : "";
+  const coverLine = coverFile ? `cover: /images/journals/${coverFile}\n` : "";
 
   const md =
 `---
@@ -292,7 +293,7 @@ collection: ${collection}
 permalink: /publication/${slug}.pdf
 paperurl: '/files/${pdfName}'
 link: '${doi}'
-${journalLine}citation: '${citation.replace(/'/g,"''")}'
+${coverLine}citation: '${citation.replace(/'/g,"''")}'
 ---
 
 `;
