@@ -6,9 +6,6 @@ author_profile: true
 
 <p class="pub-legend"><span class="pub-legend__star">*</span> Corresponding author &nbsp;·&nbsp; † Joint first authorship</p>
 
-{% if author.googlescholar %}
-<p class="pub-scholar">You can also find my articles on <a href="{{ author.googlescholar }}">my Google Scholar profile</a>.</p>
-{% endif %}
 
 {% include base_path %}
 
@@ -22,7 +19,7 @@ author_profile: true
 {% assign of_list = pubs | where: "online_first", true %}
 {% if of_list and of_list.size > 0 %}
 <div class="pub-year-block" data-year="press">
-<h2 class="pub-year pub-year--press">In press / Online first</h2>
+<h2 class="pub-year pub-year--press">In press</h2>
 <div class="pub-year-group">
 {% for post in of_list %}{% include publication-card.html %}{% endfor %}
 </div>
