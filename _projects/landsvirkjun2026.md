@@ -25,6 +25,6 @@ papers:
 The transition to renewable energy is not only a technological challenge but also a social one. Renewable energy projects often involve competing interests among energy companies, local communities, governments, and future generations, making trust, cooperation, and effective communication essential for successful implementation. This research residency brings together psychological research on intergroup relations, cooperation, and pro-climate behaviour with the practical challenges faced by Landsvirkjun, Iceland’s national power company. The residency aims to strengthen the company’s engagement with communities while establishing a long-term knowledge exchange partnership between academia and industry to support a just and socially sustainable energy transition.
 
 
-![](/images/projects/hydropower.jpg)
+![](/images/projects/hydropower.jpeg)
 
 
