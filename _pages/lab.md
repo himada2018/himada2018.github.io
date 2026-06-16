@@ -117,7 +117,7 @@ We are actively seeking undergraduate, postgraduate, and postdoctoral researcher
 
 If you are a current undergraduate or MSc student at Royal Holloway and are interested in conducting research with Hiro, please get in touch via email. You may join the lab as a volunteer research assistant or apply for a research assistant bursary.
 
-Students in the lab have opportunities to gain a wide range of research experiences, including conducting literature reviews, designing and running experiments, analysing data, and contributing to academic publications. We are also looking for students interested in writing science communication materials for our work (e.g., writing a blogpost and creating an infographic pieces)
+Students in the lab have opportunities to gain a wide range of research experiences, including conducting literature reviews, designing and running experiments, analysing data, and contributing to academic publications. We are also looking for students interested in writing science communication pieces for our work (e.g., writing blogposts and creating infographic pieces)
 
 *Prospective PhD students*
 
