@@ -37,6 +37,27 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 </div>
 
+
+<p class="lab-section-title">Research assistants</p>
+
+<div class="lab-table-wrap">
+<table class="lab-table">
+  <thead><tr><th>Name</th><th>Role</th></tr></thead>
+  <tbody>
+    <tr><td>Alana Middleton</td><td>Impact and Partnerships Associate</td></tr>
+    <tr><td>Maximus Sadiku</td><td>Undergraduate Research Assistant</td></tr>
+    <tr><td>Georgia Cross</td><td>Impact and Partnerships Associate</td></tr>
+    <tr><td>Jasmina von Lowenburg</td><td>Undergraduate Research Assistant</td></tr>
+  </tbody>
+</table>
+</div>
+
+
+<p class="lab-section-title">Recent papers</p>
+
+{% include recent-papers.html count=6 %}
+
+
 <p class="lab-section-title">Projects</p>
 
 <p class="lab-subhead">Research projects</p>
@@ -57,6 +78,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 </div>
 
+
 <p class="lab-subhead">Impact activities</p>
 
 <div class="project-rail">
@@ -73,23 +95,6 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 </div>
 
-<p class="lab-section-title">Recent papers</p>
-
-{% include recent-papers.html count=6 %}
-
-<p class="lab-section-title">Research assistants</p>
-
-<div class="lab-table-wrap">
-<table class="lab-table">
-  <thead><tr><th>Name</th><th>Role</th></tr></thead>
-  <tbody>
-    <tr><td>Alana Middleton</td><td>Impact and Partnerships Associate</td></tr>
-    <tr><td>Maximus Sadiku</td><td>Undergraduate Research Assistant</td></tr>
-    <tr><td>Georgia Cross</td><td>Impact and Partnerships Associate</td></tr>
-    <tr><td>Jasmina von Lowenburg</td><td>Undergraduate Research Assistant</td></tr>
-  </tbody>
-</table>
-</div>
 
 <p class="lab-section-title">Lab alumni</p>
 
