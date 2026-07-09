@@ -18,7 +18,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
   </div>
 
   <div class="member-card">
-    <div class="member-card__initials">TK</div>
+    <img class="member-card__photo" src="/images/members/taeik-kim.jpg" alt="Taeik Kim"/>
     <div class="member-card__name">Taeik Kim</div>
     <div class="member-card__role">Postdoctoral Researcher</div>
   </div>
