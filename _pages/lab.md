@@ -44,10 +44,10 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 <table class="lab-table">
   <thead><tr><th>Name</th><th>Role</th></tr></thead>
   <tbody>
-    <tr><td>Alana Middleton</td><td>Impact and Partnerships Associate</td></tr>
-    <tr><td>Maximus Sadiku</td><td>Undergraduate Research Assistant</td></tr>
-    <tr><td>Georgia Cross</td><td>Impact and Partnerships Associate</td></tr>
+    <tr><td>Maximus Sadiku</td><td>External Research Assistant</td></tr>
+    <tr><td>Georgia Cross</td><td>Undergraduate Research Assistant</td></tr>
     <tr><td>Jasmina von Lowenburg</td><td>Undergraduate Research Assistant</td></tr>
+    <tr><td>Maryam Saeed</td><td>Undergraduate Research Assistant</td></tr>
   </tbody>
 </table>
 </div>
@@ -102,6 +102,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 <table class="lab-table">
   <thead><tr><th>Name</th><th>Role</th><th>Years in lab</th></tr></thead>
   <tbody>
+    <tr><td>Alana Middleton</td><td>Impact and Partnerships Associate</td><td>2025-2026</td></tr>
     <tr><td>Jack McCart</td><td>Undergraduate Research Assistant</td><td>2024-2026</td></tr>
     <tr><td><a href="https://www.linkedin.com/in/lingyu-meng-a884662a4/">Lingyu Meng</a></td><td>External Research Assistant</td><td>2025-2026</td></tr>
     <tr><td><a href="https://applicationspub.unil.ch/interpub/noauth/php/Un/UnPers.php?PerNum=1284330&LanCode=8">Rui Sun</a></td><td>External Research Assistant</td><td>2024-2025</td></tr>
