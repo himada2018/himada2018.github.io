@@ -44,6 +44,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 <table class="lab-table">
   <thead><tr><th>Name</th><th>Role</th></tr></thead>
   <tbody>
+    <tr><td>Melek Broadsmith</td><td>Lab Manager</td></tr>
     <tr><td>Maximus Sadiku</td><td>External Research Assistant</td></tr>
     <tr><td>Georgia Cross</td><td>Undergraduate Research Assistant</td></tr>
     <tr><td>Jasmina von Lowenburg</td><td>Undergraduate Research Assistant</td></tr>
