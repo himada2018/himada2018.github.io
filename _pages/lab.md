@@ -30,7 +30,7 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
   </div>
 
   <div class="member-card">
-    <img class="member-card__photo" src="/images/members/eliza-vettou.jpg" alt="Eliza Vettou"/>
+    <img class="member-card__photo" src="/images/members/eliza-vettou.jpg"/>
     <div class="member-card__name">Eliza Vettou</div>
     <div class="member-card__role">PhD Student</div>
   </div>
