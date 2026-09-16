@@ -394,25 +394,6 @@ author_profile: false
   </div>
 </div>
 
-<div class="ws-stats">
-  <div class="ws-stat">
-    <span class="ws-stat-num">2</span>
-    <span class="ws-stat-label">Full<br>days</span>
-  </div>
-  <div class="ws-stat">
-    <span class="ws-stat-num">8</span>
-    <span class="ws-stat-label">Taught<br>sessions</span>
-  </div>
-  <div class="ws-stat">
-    <span class="ws-stat-num">Free</span>
-    <span class="ws-stat-label">No registration<br>fee</span>
-  </div>
-  <div class="ws-stat">
-    <span class="ws-stat-num">9 Oct</span>
-    <span class="ws-stat-label">Registration<br>closes</span>
-  </div>
-</div>
-
 <div class="ws-section">
   <p class="ws-label">About the Workshop</p>
   <h2>Bringing simulations methods into  psychological science</h2>
