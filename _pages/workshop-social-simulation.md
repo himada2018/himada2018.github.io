@@ -518,6 +518,18 @@ author_profile: false
     <a class="ws-btn" href="https://rhulpsychology.eu.qualtrics.com/jfe/form/SV_0CiKU7ZwD2UewPY">Register now</a>
     <span class="ws-deadline">Registration closes <strong>September 30, 2026</strong></span>
   </div>
+  <div class="ws-note">
+    <p>
+      <strong>If we are oversubscribed.</strong> Places will be allocated according to how
+      closely each application matches the target group described above. We will confirm
+      the outcome to everyone after registration closes.
+    </p>
+    <p>
+      <strong>All materials will be shared publicly.</strong> Slides, code, and exercises
+      from every session will be released openly after the workshop, free to use and
+      adapt &mdash; whether or not you were able to attend.
+    </p>
+  </div>
 </div>
 
 <div class="ws-section">
