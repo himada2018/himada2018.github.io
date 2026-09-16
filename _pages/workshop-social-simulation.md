@@ -465,6 +465,7 @@ author_profile: false
         <li><span class="ws-stime">13:00&ndash;14:00</span><span class="ws-stitle">Social simulation workshop 1 (Hiro Imada)</span></li>
         <li><span class="ws-stime">14:00&ndash;14:30</span><span class="ws-stitle">Coffee break</span></li>
         <li><span class="ws-stime">14:30&ndash;15:30</span><span class="ws-stitle">Social simulation workshop 2 (Hiro Imada)</span></li>
+        <li><span class="ws-stime">15:30</span><span class="ws-stitle">Close of Day 1</span></li>
       </ul>
     </div>
 
@@ -481,7 +482,7 @@ author_profile: false
         <li><span class="ws-stime">13:30&ndash;14:30</span><span class="ws-stitle">Agent-based modelling and the evolution of cooperation 2 (Isamu Okada)</span></li>
         <li><span class="ws-stime">14:30&ndash;15:00</span><span class="ws-stitle">Coffee break</span></li>
         <li><span class="ws-stime">15:00&ndash;16:00</span><span class="ws-stitle">Keynote lecture (TBA)</span></li>
-        <li><span class="ws-stime">16:00</span><span class="ws-stitle">Closing</span></li>
+        <li><span class="ws-stime">16:00</span><span class="ws-stitle">Close of Day 2</span></li>
       </ul>
     </div>
 
