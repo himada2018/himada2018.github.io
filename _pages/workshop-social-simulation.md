@@ -396,7 +396,7 @@ author_profile: false
 
 <div class="ws-section">
   <p class="ws-label">About the Workshop</p>
-  <h2>Bringing simulations methods into  psychological science</h2>
+  <h2>Bringing simulation methods into  psychological science</h2>
   <p class="ws-prose">
     Social simulations and programming remain absent from most psychology training
     programmes. This constrains what students are able to ask of their data, and narrows
@@ -417,25 +417,21 @@ author_profile: false
   <h2>What the two days cover</h2>
   <div class="ws-areas">
     <div class="ws-area">
-      <p class="ws-area-when">Day 1 &middot; Morning</p>
       <h3>Python crash course</h3>
       <p>An optional crash course for complete beginners, followed by the specific Python
          tooling used across the rest of the workshop.</p>
     </div>
     <div class="ws-area">
-      <p class="ws-area-when">Day 1 &middot; Afternoon</p>
       <h3>Simulating real-world problems</h3>
       <p>Simulation as a way of thinking, built through classic everyday puzzles &mdash;
          queueing behaviour, the secretary problem, and related decision scenarios.</p>
     </div>
     <div class="ws-area">
-      <p class="ws-area-when">Day 2 &middot; Morning</p>
       <h3>Simulation in psychological science</h3>
       <p>How social simulation complements experimental work, and the theoretical
          questions it can address that experiments alone cannot.</p>
     </div>
     <div class="ws-area">
-      <p class="ws-area-when">Day 2 &middot; Afternoon</p>
       <h3>Evolution of human sociality</h3>
       <p>Agent-based models of cooperation, reciprocity, and the conditions under which
          human cooperation emerges and stabilises.</p>
