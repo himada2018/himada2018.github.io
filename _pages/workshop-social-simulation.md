@@ -3,7 +3,7 @@ layout: single
 title: "Simulating Social Worlds"
 excerpt: "A free two-day workshop on social simulations for early career psychologists on 21–22 October 2026."
 permalink: /projects/social-simulation/workshop/
-author_profile: true
+author_profile: false
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -469,6 +469,9 @@ author_profile: true
     The Python crash course on Day 1 is optional
     &mdash; skip it and join us at 11:00 if you already use Python comfortably. Every
     other session forms the core programme, and we ask that you attend these in full.
+  </p>
+  <p class="ws-prose">
+    The workshop takes place in Stewart House, Royal Holloway, University of London, 32 Russell Sq, London WC1B 5DN.
   </p>
   <div class="ws-days">
 
