@@ -462,8 +462,7 @@ author_profile: false
       </div>
       <ul class="ws-sessions">
         <li><span class="ws-stime">09:30&ndash;10:00</span><span class="ws-stitle">Registration</span></li>
-        <li><span class="ws-stime">10:00&ndash;11:00</span><span class="ws-stitle">Python crash course (TBA)</span></li>
-        <li><span class="ws-stime">11:00&ndash;12:00</span><span class="ws-stitle">TBA</span></li>
+        <li><span class="ws-stime">10:00&ndash;12:00</span><span class="ws-stitle">Python crash course (TBA)</span></li>
         <li><span class="ws-stime">12:00&ndash;13:00</span><span class="ws-stitle">Lunch &amp; late registration</span></li>
         <li><span class="ws-stime">13:00&ndash;14:00</span><span class="ws-stitle">Social simulation workshop 1 (Hiro Imada)</span></li>
         <li><span class="ws-stime">14:00&ndash;14:30</span><span class="ws-stitle">Coffee break</span></li>
