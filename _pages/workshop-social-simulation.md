@@ -373,7 +373,7 @@ author_profile: false
     <h2 class="ws-title">Simulating Social Worlds</h2>
     <p class="ws-subtitle">Social Simulations for Psychologists</p>
     <p class="ws-lede">
-      Hands-on training in Python and social simulatiosn &mdash; from everyday decision
+      Hands-on training in Python and social simulations &mdash; from everyday decision
       problems to the evolution of human sociality. No prior programming experience
       required.
     </p>
