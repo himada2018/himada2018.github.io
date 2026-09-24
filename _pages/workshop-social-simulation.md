@@ -451,7 +451,7 @@ author_profile: false
     The workshop takes place in Stewart House, Royal Holloway, University of London, 32 Russell Sq, London WC1B 5DN.
   </p>
   <p class="ws-prose">
-    Coffee and refreshments will be provided. We aim to cover lunch on Day 2 and, if possible, on Day 1 as well. We will confirm this closer to the event.
+    Coffee and refreshments will be provided. We will try to cover lunch on Day 2. We will confirm this closer to the event.
   </p>
   <div class="ws-days">
 
