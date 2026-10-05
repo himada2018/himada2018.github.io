@@ -461,12 +461,12 @@ author_profile: false
         <div class="ws-day-date">Wednesday 21 October</div>
       </div>
       <ul class="ws-sessions">
-        <li><span class="ws-stime">09:30&ndash;10:00</span><span class="ws-stitle">Registration</span></li>
+        <li><span class="ws-stime">09:30&ndash;10:00</span><span class="ws-stitle">Registration & Coffee</span></li>
         <li><span class="ws-stime">10:00&ndash;12:00</span><span class="ws-stitle">Python crash course (Dr. Andy Woods)</span></li>
         <li><span class="ws-stime">12:00&ndash;13:00</span><span class="ws-stitle">Lunch &amp; late registration</span></li>
-        <li><span class="ws-stime">13:00&ndash;14:00</span><span class="ws-stitle">Social simulation workshop 1 (Dr. Hiro Imada)</span></li>
+        <li><span class="ws-stime">13:00&ndash;14:00</span><span class="ws-stitle">Social simulation workshop I (Dr. Hiro Imada)</span></li>
         <li><span class="ws-stime">14:00&ndash;14:30</span><span class="ws-stitle">Coffee break</span></li>
-        <li><span class="ws-stime">14:30&ndash;15:30</span><span class="ws-stitle">Social simulation workshop 2 (Dr. Hiro Imada)</span></li>
+        <li><span class="ws-stime">14:30&ndash;15:30</span><span class="ws-stitle">Social simulation workshop II (Dr. Hiro Imada)</span></li>
         <li><span class="ws-stime">15:30</span><span class="ws-stitle">Close of Day 1</span></li>
       </ul>
     </div>
@@ -477,11 +477,11 @@ author_profile: false
         <div class="ws-day-date">Thursday 22 October</div>
       </div>
       <ul class="ws-sessions">
-        <li><span class="ws-stime">10:00&ndash;11:00</span><span class="ws-stitle">Using social simulations in psychological science (Dr. Hiro Imada)</span></li>
+        <li><span class="ws-stime">10:00&ndash;11:00</span><span class="ws-stitle">Agent-based modelling and the evolution of cooperation I (Dr. Isamu Okada)</span></li>
         <li><span class="ws-stime">11:00&ndash;11:30</span><span class="ws-stitle">Coffee break</span></li>
-        <li><span class="ws-stime">11:30&ndash;12:30</span><span class="ws-stitle">Agent-based modelling and the evolution of cooperation 1 (Dr. Isamu Okada)</span></li>
+        <li><span class="ws-stime">11:30&ndash;12:30</span><span class="ws-stitle">Agent-based modelling and the evolution of cooperation II (Dr. Isamu Okada)</span></li>
         <li><span class="ws-stime">12:30&ndash;13:30</span><span class="ws-stitle">Lunch break</span></li>
-        <li><span class="ws-stime">13:30&ndash;14:30</span><span class="ws-stitle">Agent-based modelling and the evolution of cooperation 2 (Dr. Isamu Okada)</span></li>
+        <li><span class="ws-stime">13:30&ndash;14:30</span><span class="ws-stitle">Using social simulations in psychological science (Dr. Hiro Imada)</span></li>
         <li><span class="ws-stime">14:30&ndash;15:00</span><span class="ws-stitle">Coffee break</span></li>
         <li><span class="ws-stime">15:00&ndash;16:00</span><span class="ws-stitle">Keynote lecture by Dr. Corinna Elsenbroich</span></li>
         <li><span class="ws-stime">16:00</span><span class="ws-stitle">Close of Day 2</span></li>
