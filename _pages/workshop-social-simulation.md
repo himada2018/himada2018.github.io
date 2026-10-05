@@ -369,7 +369,6 @@ author_profile: false
 <div class="ws-hero">
   <canvas id="ws-net" aria-hidden="true"></canvas>
   <div class="ws-hero-inner">
-    <p class="ws-eyebrow">Free Workshop</p>
     <h2 class="ws-title">Simulating Social Worlds</h2>
     <p class="ws-subtitle">Social Simulations for Psychologists</p>
     <p class="ws-lede">
@@ -515,7 +514,7 @@ author_profile: false
   <p class="ws-label">Registration</p>
   <h2>Register your place</h2>
   <p class="ws-prose">
-    Attendance is free, but places are limited and registration is required. Since our capacity is limited, please do NOT regiseter if you do not show up. Registration takes about three minutes.
+    Attendance is free, but places are limited and registration is required. Since our capacity is limited, please do NOT register if you do not show up. Registration takes about three minutes.
   </p>
   <div class="ws-cta-row">
     <a class="ws-btn" href="https://rhulpsychology.eu.qualtrics.com/jfe/form/SV_0CiKU7ZwD2UewPY">Register now</a>
