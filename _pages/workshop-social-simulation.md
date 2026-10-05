@@ -369,7 +369,7 @@ author_profile: false
 <div class="ws-hero">
   <canvas id="ws-net" aria-hidden="true"></canvas>
   <div class="ws-hero-inner">
-    <p class="ws-eyebrow">Free Workshop &middot; Registration Open</p>
+    <p class="ws-eyebrow">Free Workshop</p>
     <h2 class="ws-title">Simulating Social Worlds</h2>
     <p class="ws-subtitle">Social Simulations for Psychologists</p>
     <p class="ws-lede">
