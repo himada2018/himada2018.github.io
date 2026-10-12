@@ -460,7 +460,7 @@ author_profile: false
         <div class="ws-day-date">Wednesday 21 October</div>
       </div>
       <ul class="ws-sessions">
-        <li><span class="ws-stime">09:30&ndash;10:00</span><span class="ws-stitle">Registration & Coffee</span></li>
+        <li><span class="ws-stime">09:30&ndash;10:00</span><span class="ws-stitle">Registration</span></li>
         <li><span class="ws-stime">10:00&ndash;12:00</span><span class="ws-stitle">Python crash course (Dr. Andy Woods)</span></li>
         <li><span class="ws-stime">12:00&ndash;13:00</span><span class="ws-stitle">Lunch &amp; late registration</span></li>
         <li><span class="ws-stime">13:00&ndash;14:00</span><span class="ws-stitle">Social simulation workshop I (Dr. Hiro Imada)</span></li>
