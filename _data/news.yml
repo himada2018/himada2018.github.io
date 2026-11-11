@@ -9,6 +9,13 @@
 # Order is exactly how you list them here — nothing is sorted automatically.
 # Tip: use the news-generator.html tool to build/edit this file visually.
 # ---------------------------------------------------------------------------
+- date: "October 2026"
+  text: "Hiro organised a 2-day workshop on social simulations"
+  link: "https://himada2018.github.io/projects/social-simulation/workshop/"
+
+- date: "October 2026"
+  text: "New paper out in *The Leadership Quarterly* with the PSA."
+  link: "https://www.sciencedirect.com/science/article/pii/S1048984326000500"
 
 - date: "September 2026"
   text: "Hiro received the early career award from the BPS Social Section"
