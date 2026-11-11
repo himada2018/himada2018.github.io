@@ -149,4 +149,9 @@ Hiro is particularly enthusiastic about supporting student-led PhD projects that
 
 Hiro also welcomes inquiries from prospective postdoctoral researchers interested in developing fellowship applications. He is keen to support competitive applications for schemes such as [the British Academy Postdoctoral Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/postdoctoral-fellowships/), [the British Academy International Fellowships](https://www.thebritishacademy.ac.uk/funding/schemes/international-fellowships/), [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships), and other relevant national and international funding opportunities.
 
+*International office hours*
+
+Open office hours for early career scholars, with a particular welcome to those based in underrepresented countries. There is no need to set an agenda in advance. Please feel free to book a 30-min meeting with me if you want to talk to me about anything! You can book it from [here](https://bookings.cloud.microsoft/bookwithme/?anonymous&ismsaljsauthenabled).
+
+
 </div>
