@@ -104,7 +104,8 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 <table class="lab-table">
   <thead><tr><th>Date</th><th>Speaker</th><th>Title</th></tr></thead>
   <tbody>
-    <tr><td>30 Nov 2026</td><td><a href="https://www.linkedin.com/in/kodai-kusano-8b45a3261/">Dr. Kodai Kusano (NYU Abu Dhabi)</a></td><td>Contemporary methodological issues in cross-cultural research - measurement invariance and reference group effect </td></tr>
+    <tr><td>11 Dec 2026</td><td><a href="https://www.linkedin.com/in/alma-jeftic-138781122/">Dr. Alma Jeftic (the Peace Research Institute)</a></td><td>Managing large-scale international collaborations</td></tr>
+    <tr><td>30 Nov 2026</td><td><a href="https://www.linkedin.com/in/kodai-kusano-8b45a3261/">Dr. Kodai Kusano (NYU Abu Dhabi)</a></td><td>Contemporary methodological issues in cross-cultural research - measurement invariance and reference group effect</td></tr>
     <tr><td>12 Oct 2026</td><td><a href="https://www.linkedin.com/in/kotomiideishi/">Kotomi Ideishi (Utrecht University)</a></td><td>Response surface analysis workshop</td></tr>
   </tbody>
 </table>
