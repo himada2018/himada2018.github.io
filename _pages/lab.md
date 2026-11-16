@@ -63,38 +63,82 @@ Cooperation and Intergroup Processes Lab (CIP Lab) is hosted by Dr. Hirotaka Ima
 
 <p class="lab-subhead">Research projects</p>
 
-<div class="project-rail">
+<div class="project-slider" data-project-slider>
+  <button class="project-slider__btn" type="button" data-dir="-1"
+          aria-label="Previous research projects" hidden>&#8249;</button>
 
-  <a class="project-card" href="/projects/intergroup-pluralistic-ignorance/">
-    <div class="project-card__title">Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change</div>
-    <div class="project-card__meta">Funded by <strong>The Leverhulme Trust</strong></div>
-    <div class="project-card__meta">January 2026 - December 2030</div>
-  </a>
+  <div class="project-rail" tabindex="0" role="group" aria-label="Research projects">
 
-  <a class="project-card" href="/projects/social-simulation/">
-    <div class="project-card__title">Advancing Theoretical Understanding and Methodological Capacity in Psychology Through Social Simulation</div>
-    <div class="project-card__meta">Funded by <strong>The British Academy</strong></div>
-    <div class="project-card__meta">March 2026 - February 2027</div>
-  </a>
+    <a class="project-card" href="/projects/intergroup-pluralistic-ignorance/">
+      <div class="project-card__title">Intergroup Pluralistic Ignorance and Intergroup Cooperation for Climate Change</div>
+      <div class="project-card__meta">Funded by <strong>The Leverhulme Trust</strong></div>
+      <div class="project-card__meta">January 2026 - December 2030</div>
+    </a>
 
+    <a class="project-card" href="/projects/social-simulation/">
+      <div class="project-card__title">Advancing Theoretical Understanding and Methodological Capacity in Psychology Through Social Simulation</div>
+      <div class="project-card__meta">Funded by <strong>The British Academy</strong></div>
+      <div class="project-card__meta">March 2026 - February 2027</div>
+    </a>
+
+  </div>
+
+  <button class="project-slider__btn" type="button" data-dir="1"
+          aria-label="More research projects" hidden>&#8250;</button>
 </div>
 
 
 <p class="lab-subhead">Impact activities</p>
 
-<div class="project-rail">
+<div class="project-slider" data-project-slider>
+  <button class="project-slider__btn" type="button" data-dir="-1"
+          aria-label="Previous impact activities" hidden>&#8249;</button>
 
-  <a class="project-card project-card--impact" href="/projects/echoes-of-care/">
-    <div class="project-card__title">Echoes of Care</div>
-    <div class="project-card__meta">with Richmond Arts Service · January 2026 - present</div>
-  </a>
+  <div class="project-rail" tabindex="0" role="group" aria-label="Impact activities">
 
-  <a class="project-card project-card--impact" href="/projects/renewable-energy-cooperation/">
-    <div class="project-card__title">Building Intergenerational Cooperation for Renewable Energy Development</div>
-    <div class="project-card__meta">with Landsvirkjun · January - June 2026</div>
-  </a>
+    <a class="project-card project-card--impact" href="/projects/echoes-of-care/">
+      <div class="project-card__title">Echoes of Care</div>
+      <div class="project-card__meta">with Richmond Arts Service · January 2026 - present</div>
+    </a>
 
+    <a class="project-card project-card--impact" href="/projects/renewable-energy-cooperation/">
+      <div class="project-card__title">Building Intergenerational Cooperation for Renewable Energy Development</div>
+      <div class="project-card__meta">with Landsvirkjun · January - June 2026</div>
+    </a>
+
+  </div>
+
+  <button class="project-slider__btn" type="button" data-dir="1"
+          aria-label="More impact activities" hidden>&#8250;</button>
 </div>
+
+<script>
+(function () {
+  document.querySelectorAll('[data-project-slider]').forEach(function (slider) {
+    var rail = slider.querySelector('.project-rail');
+    var btns = slider.querySelectorAll('.project-slider__btn');
+    if (!rail || btns.length !== 2) return;
+
+    function refresh() {
+      var max = rail.scrollWidth - rail.clientWidth - 1;
+      btns[0].hidden = max <= 0 || rail.scrollLeft <= 0;
+      btns[1].hidden = max <= 0 || rail.scrollLeft >= max;
+    }
+
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        rail.scrollBy({ left: rail.clientWidth * Number(b.dataset.dir), behavior: 'smooth' });
+      });
+    });
+
+    rail.addEventListener('scroll', refresh, { passive: true });
+    window.addEventListener('resize', refresh);
+    if (window.ResizeObserver) new ResizeObserver(refresh).observe(rail);
+    refresh();
+  });
+})();
+</script>
+
 
 <p class="lab-section-title">The CIP Lab Seminar Series</p>
 
