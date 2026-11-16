@@ -16,6 +16,23 @@
     max-width: 50em;     /* comfortable reading width; remove for true full-bleed */
     margin: 0 auto;
   }
+
+  /* The Minimal Mistakes base floats .page__content and reserves a right
+     gutter for the sidebar. With the sidebar removed, anything after the
+     description wraps into that gutter instead of sitting below it, which
+     pushes the people block off the right edge. Reset it explicitly. */
+  .page__content,
+  .project-description,
+  .project-people,
+  .project-papers {
+    float: none;
+    clear: both;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* nothing on this page should be able to overflow sideways */
+  .page__inner-wrap > * { min-width: 0; }
 }
 
 .project-back {
@@ -101,8 +118,8 @@
   margin: 1.8em 0;
 
   &__col {
-    flex: 1;
-    min-width: 180px;
+    flex: 1 1 180px;   /* 180px is a starting size, not a floor */
+    min-width: 0;      /* lets the column shrink instead of overflowing */
   }
   &__label {
     font-size: 0.7em;
@@ -115,7 +132,12 @@
   &__list {
     font-size: 0.9em;
     line-height: 1.9;
-    a, span { display: block; }
+    a, span {
+      display: block;
+      white-space: normal;
+      overflow-wrap: anywhere;   /* long names wrap rather than overflow */
+      max-width: 100%;
+    }
   }
 }
 
@@ -170,6 +192,6 @@
 }
 
 /* --- responsive --- */
-@media (max-width: 37.5em) {
+@media (max-width: 48em) {
   .project-people { flex-direction: column; gap: 1.2em; }
 }
